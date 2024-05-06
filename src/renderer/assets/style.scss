@@ -1,0 +1,16 @@
+@import "ol/ol.css";
+@import "ol-ext/dist/ol-ext.css";
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
