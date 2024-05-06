@@ -3,6 +3,8 @@ import { GeoJSON, KML } from "ol/format.js"
 import { SNT } from "../lib/SNT"
 import { buildVectorSource } from "./buildVectorSource"
 import { buildVectorLayer } from "./buildVectorLayer"
+import { buildLabelSource } from "./buildLabelSource"
+import { buildLabelLayer } from "./buildLabelLayer"
 
 let dragAndDropInteraction
 
@@ -19,11 +21,16 @@ export function setupDragAndDrop(map) {
 
     const vectorSource = buildVectorSource(event.features, format, filename)
     const vectorLayer = buildVectorLayer(vectorSource, format, filename)
+
+    const labelSource = buildLabelSource(vectorSource, format, filename)
+    const labelLayer = buildLabelLayer(labelSource, format, filename)
+
     map.addLayer(vectorLayer)
     map.getView().fit(vectorSource.getExtent(), {
       padding: [100, 100, 100, 100],
       duration: 200
     })
+    map.addLayer(labelLayer)
   })
   map.addInteraction(dragAndDropInteraction)
 }
