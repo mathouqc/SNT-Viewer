@@ -4,6 +4,8 @@ import { Tile as TileLayer } from "ol/layer.js"
 import { OSM } from "ol/source.js"
 import { useGeographic } from "ol/proj"
 import { setupDragAndDrop } from "./utils/setupDragAndDrop"
+import { setupPopup } from "./utils/setupPopup"
+import { setupControls } from "./utils/setupControls"
 
 export class App {
   constructor() {
@@ -23,5 +25,7 @@ export class App {
     })
 
     setupDragAndDrop(this.map)
+    setupPopup(this.map)
+    setupControls(this.map)
   }
 }
