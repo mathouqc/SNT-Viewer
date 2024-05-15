@@ -3,7 +3,7 @@ import { LineString } from "ol/geom"
 import { Feature } from "ol"
 
 /**
- * Create lines with points from an SNT file or filter features from other formats
+ * Create lines from points from SNT file or filter features from other formats
  * @param {Array<Feature>} features
  * @param {string} format - Format of the file (SNT, KML or GEOJSON)
  * @param {string} name - Name of the source (filename for example)

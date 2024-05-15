@@ -1,10 +1,13 @@
+/**
+ * Function to add DragAndDrop capabilities to the map.
+ * Users can drag and drop files on the map to load data.
+ * Similar to setupUploadHandler.
+ */
+
 import DragAndDrop from "ol/interaction/DragAndDrop.js"
-import { GeoJSON, KML } from "ol/format.js"
+// import { GeoJSON, KML } from "ol/format.js"
 import { SNT } from "../lib/SNT"
-import { buildVectorSource } from "./buildVectorSource"
-import { buildVectorLayer } from "./buildVectorLayer"
-import { buildLabelSource } from "./buildLabelSource"
-import { buildLabelLayer } from "./buildLabelLayer"
+import { createLayerFromPoints } from "../utils/layerFromPoints"
 
 let dragAndDropInteraction
 
@@ -13,17 +16,18 @@ export function setupDragAndDrop(map) {
     map.removeInteraction(dragAndDropInteraction)
   }
   dragAndDropInteraction = new DragAndDrop({
-    formatConstructors: [GeoJSON, KML, SNT]
+    // formatConstructors: [GeoJSON, KML, SNT]
+    formatConstructors: [SNT]
   })
   dragAndDropInteraction.on("addfeatures", (event) => {
     const filename = event.file.name
     const format = filename.substring(filename.lastIndexOf(".") + 1).toUpperCase()
 
-    const vectorSource = buildVectorSource(event.features, format, filename)
-    const vectorLayer = buildVectorLayer(vectorSource, format, filename)
-
-    const labelSource = buildLabelSource(vectorSource, format, filename)
-    const labelLayer = buildLabelLayer(labelSource, format, filename)
+    const [vectorLayer, vectorSource, labelLayer] = createLayerFromPoints(
+      event.features,
+      format,
+      filename
+    )
 
     map.addLayer(vectorLayer)
     map.getView().fit(vectorSource.getExtent(), {

@@ -1,3 +1,7 @@
+/**
+ * Openlayers format class to read SNT files.
+ */
+
 import TextFeature from "ol/format/TextFeature"
 import Feature from "ol/Feature"
 import Point from "ol/geom/Point"

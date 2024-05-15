@@ -1,30 +1,5 @@
-import Button from "ol-ext/control/Button"
 import html2canvas from "html2canvas"
 import { jsPDF } from "jspdf"
-
-export function setupControls(map) {
-  const save = new Button({
-    html: '<i class="fa fa-print"></i>',
-    className: "print-btn",
-    title: "Print",
-    handleClick: () => {
-      printPDF(map)
-    }
-  })
-
-  map.addControl(save)
-
-  const upload = new Button({
-    html: '<i class="fa fa-upload"></i>',
-    className: "upload-btn",
-    title: "Upload",
-    handleClick: () => {
-      uploadSNT(map)
-    }
-  })
-
-  map.addControl(upload)
-}
 
 function hideControls() {
   const elements = [
@@ -49,7 +24,10 @@ function showControls() {
   })
 }
 
-function printPDF() {
+/**
+ * Generate a pdf from a screenshot of the map without the controls
+ */
+export function printPDF() {
   hideControls()
   html2canvas(document.getElementById("map")).then((canvas) => {
     const pdf = new jsPDF({
@@ -61,8 +39,4 @@ function printPDF() {
     pdf.save("map.pdf")
   })
   showControls()
-}
-
-function uploadSNT(map) {
-  console.log("Upload", map)
 }
