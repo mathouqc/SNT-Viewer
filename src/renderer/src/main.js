@@ -6,12 +6,14 @@ import { useGeographic } from "ol/proj"
 import { setupDragAndDrop } from "./utils/setupDragAndDrop"
 import { setupPopup } from "./utils/setupPopup"
 import { setupControls } from "./utils/setupControls"
+import { DragRotateAndZoom, defaults as defaultInteractions } from "ol/interaction.js"
 
 export class App {
   constructor() {
     useGeographic()
 
     this.map = new Map({
+      interactions: defaultInteractions().extend([new DragRotateAndZoom()]),
       target: "map",
       layers: [
         new TileLayer({

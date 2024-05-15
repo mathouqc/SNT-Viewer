@@ -20,7 +20,12 @@ body {
     width: 2em;
 }
 
+.upload-btn {
+    top: 0.5em;
+    right: calc(50% + 0.25em);
+}
+
 .print-btn {
     top: 0.5em;
-    right: 0.5em;
+    left: calc(50% + 0.25em);
 }
