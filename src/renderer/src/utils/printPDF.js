@@ -18,12 +18,14 @@ export function printPDF() {
   showControls()
 }
 
+const elements = [
+  ...document.getElementsByClassName("ol-zoom"),
+  ...document.getElementsByClassName("print-btn"),
+  ...document.getElementsByClassName("clear-btn"),
+  ...document.getElementsByClassName("upload-btn")
+]
+
 function hideControls() {
-  const elements = [
-    ...document.getElementsByClassName("ol-zoom"),
-    ...document.getElementsByClassName("print-btn"),
-    ...document.getElementsByClassName("upload-btn")
-  ]
   console.log(elements)
   elements.forEach((element) => {
     element.style.display = "none"
@@ -31,11 +33,6 @@ function hideControls() {
 }
 
 function showControls() {
-  const elements = [
-    ...document.getElementsByClassName("ol-zoom"),
-    ...document.getElementsByClassName("print-btn"),
-    ...document.getElementsByClassName("upload-btn")
-  ]
   elements.forEach((element) => {
     element.style.display = "block"
   })

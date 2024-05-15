@@ -1,4 +1,5 @@
 import Button from "ol-ext/control/Button"
+import { clearMap } from "../utils/clearMap"
 import { printPDF } from "../utils/printPDF"
 
 /**
@@ -17,12 +18,23 @@ export function setupControls(map) {
 
   map.addControl(upload)
 
+  const clear = new Button({
+    html: '<i class="fa fa-trash"></i>',
+    className: "clear-btn", // Defined in style.scss
+    title: "Clear",
+    handleClick: () => {
+      clearMap(map)
+    }
+  })
+
+  map.addControl(clear)
+
   const print = new Button({
     html: '<i class="fa fa-print"></i>',
     className: "print-btn", // Defined in style.scss
     title: "Print",
     handleClick: () => {
-      printPDF(map)
+      printPDF()
     }
   })
 

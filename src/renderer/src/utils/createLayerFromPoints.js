@@ -21,5 +21,10 @@ export function createLayerFromPoints(pointFeatures, format, name) {
   // Add text to label points
   const labelLayer = buildLabelLayer(labelSource, format, name)
 
-  return [vectorLayer, vectorSource, labelLayer, labelSource]
+  return {
+    vectorLayer: vectorLayer,
+    vectorSource: vectorSource,
+    labelLayer: labelLayer,
+    labelSource: labelSource
+  }
 }

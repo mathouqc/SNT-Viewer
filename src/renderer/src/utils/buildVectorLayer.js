@@ -29,7 +29,7 @@ function createStyleFunction() {
     return new Style({
       stroke: new Stroke({
         color: status === "Acquis" ? "#2abf1d" : "#000bd9",
-        width: 2
+        width: 3
       })
     })
   }

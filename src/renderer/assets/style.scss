@@ -20,12 +20,17 @@ body {
     width: 2em;
 }
 
-.print-btn {
-    top: 0.5em;
-    left: calc(50% + 0.25em);
-}
-
 .upload-btn {
     top: 0.5em;
-    right: calc(50% + 0.25em);
+    left: calc(50% - 3.5em);
+}
+
+.clear-btn {
+    top: 0.5em;
+    left: calc(50% - 1em);
+}
+
+.print-btn {
+    top: 0.5em;
+    left: calc(50% + 1.5em);
 }
