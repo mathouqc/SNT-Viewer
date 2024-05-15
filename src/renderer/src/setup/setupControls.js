@@ -1,10 +1,10 @@
-/**
- * Function to add controls (upload and print buttons) to the map.
- */
-
 import Button from "ol-ext/control/Button"
 import { printPDF } from "../utils/printPDF"
 
+/**
+ * Function to add controls (upload and print buttons) to the map.
+ * @param {Map} map
+ */
 export function setupControls(map) {
   const upload = new Button({
     html: '<i class="fa fa-upload"></i>',

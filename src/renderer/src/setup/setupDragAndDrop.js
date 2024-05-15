@@ -1,9 +1,3 @@
-/**
- * Function to add DragAndDrop capabilities to the map.
- * Users can drag and drop files on the map to load data.
- * Similar to setupUploadHandler.
- */
-
 import DragAndDrop from "ol/interaction/DragAndDrop.js"
 // import { GeoJSON, KML } from "ol/format.js"
 import { SNT } from "../lib/SNT"
@@ -11,6 +5,12 @@ import { createLayerFromPoints } from "../utils/layerFromPoints"
 
 let dragAndDropInteraction
 
+/**
+ * Function to add DragAndDrop capabilities to the map.
+ * Users can drag and drop files on the map to load data.
+ * Similar to setupUploadHandler.
+ * @param {Map} map
+ */
 export function setupDragAndDrop(map) {
   if (dragAndDropInteraction) {
     map.removeInteraction(dragAndDropInteraction)
@@ -25,8 +25,8 @@ export function setupDragAndDrop(map) {
 
     const [vectorLayer, vectorSource, labelLayer] = createLayerFromPoints(
       event.features,
-      format,
-      filename
+      filename,
+      format
     )
 
     map.addLayer(vectorLayer)

@@ -1,40 +1,34 @@
+import { SNT } from "../lib/SNT"
+import { createLayerFromPoints } from "../utils/layerFromPoints"
+
 /**
  * Function to handle uploaded files.
  * Users can click the upload button on the map to load data.
  * Similar to setupDragAndDrop.
+ * @param {Map} map
  */
-
-import { SNT } from "../lib/SNT"
-import { buildVectorSource } from "../utils/buildVectorSource"
-import { buildVectorLayer } from "../utils/buildVectorLayer"
-import { buildLabelSource } from "../utils/buildLabelSource"
-import { buildLabelLayer } from "../utils/buildLabelLayer"
-
 export function setupUploadHandler(map) {
   document.getElementById("file-upload").addEventListener("change", (event) => {
     const file = event.target.files[0]
     if (file) {
+      const filename = file.name
+      const format = filename.substring(filename.lastIndexOf(".") + 1).toUpperCase()
+
       const reader = new FileReader()
-      reader.onload = (evt) => {
-        handleContent(map, evt.target.result)
+      reader.onload = (event) => {
+        const textData = event.target.result
+        handleContent(map, textData, filename, format)
       }
       reader.readAsText(file)
     }
   })
 }
 
-function handleContent(map, text) {
+function handleContent(map, text, format, filename) {
   const snt = new SNT()
   const features = snt.readFeatures(text)
 
-  const filename = "tmp"
-  const format = "SNT"
-
-  const vectorSource = buildVectorSource(features, format, filename)
-  const vectorLayer = buildVectorLayer(vectorSource, format, filename)
-
-  const labelSource = buildLabelSource(vectorSource, format, filename)
-  const labelLayer = buildLabelLayer(labelSource, format, filename)
+  const [vectorLayer, vectorSource, labelLayer] = createLayerFromPoints(features, format, filename)
 
   map.addLayer(vectorLayer)
   map.getView().fit(vectorSource.getExtent(), {
