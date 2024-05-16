@@ -11,12 +11,6 @@ import proj4 from "proj4"
  * @returns {VectorSource}
  */
 export function buildLabelSource(lineVectorSource, format, name) {
-  if (format !== "SNT") {
-    return new VectorSource({
-      name: name
-    })
-  }
-
   const features = []
   for (const line of lineVectorSource.getFeatures()) {
     const lineString = line.getGeometry()
@@ -39,6 +33,6 @@ export function buildLabelSource(lineVectorSource, format, name) {
 
   return new VectorSource({
     name: name,
-    features: features
+    features: format === "SNT" ? features : undefined
   })
 }

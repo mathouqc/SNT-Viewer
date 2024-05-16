@@ -9,28 +9,22 @@ import { Stroke, Style } from "ol/style"
  * @return {VectorLayer}
  */
 export function buildVectorLayer(vectorSource, format, name) {
-  const options = {
+  return new VectorLayer({
     name: name,
-    source: vectorSource
-  }
-  if (format === "SNT") {
-    options.style = createStyleFunction()
-  }
-  return new VectorLayer(options)
+    dataType: "lines",
+    source: vectorSource,
+    style: format === "SNT" ? styleFunction : undefined
+  })
 }
 
 /**
  * Create style function to change color based on status if format is SNT
- * @return {VectorLayer}
  */
-function createStyleFunction() {
-  return (feature) => {
-    const { status } = feature.getProperties()
-    return new Style({
-      stroke: new Stroke({
-        color: status === "Acquis" ? "#2abf1d" : "#000bd9",
-        width: 3
-      })
+function styleFunction(feature) {
+  return new Style({
+    stroke: new Stroke({
+      color: feature.get("status") === "Acquis" ? "#2abf1d" : "#000bd9",
+      width: 3
     })
-  }
+  })
 }

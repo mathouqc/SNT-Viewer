@@ -1,7 +1,7 @@
 import DragAndDrop from "ol/interaction/DragAndDrop.js"
 // import { GeoJSON, KML } from "ol/format.js"
 import { SNT } from "../lib/SNT"
-import { createLayerFromPoints } from "../utils/createLayerFromPoints"
+import { formatSNT } from "../utils/formatSNT"
 
 let dragAndDropInteraction
 
@@ -23,18 +23,7 @@ export function setupDragAndDrop(map) {
     const filename = event.file.name
     const format = filename.substring(filename.lastIndexOf(".") + 1).toUpperCase()
 
-    const { vectorLayer, vectorSource, labelLayer } = createLayerFromPoints(
-      event.features,
-      format,
-      filename
-    )
-
-    map.addLayer(vectorLayer)
-    map.getView().fit(vectorSource.getExtent(), {
-      padding: [100, 100, 100, 100],
-      duration: 200
-    })
-    map.addLayer(labelLayer)
+    formatSNT(map, event.features, format, filename)
   })
   map.addInteraction(dragAndDropInteraction)
 }

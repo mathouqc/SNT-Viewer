@@ -18,6 +18,10 @@ export class SNT extends TextFeature {
         continue
       }
 
+      // Convert text to number
+      ligne = String(Number(ligne))
+      photo = String(Number(photo))
+
       // latitude DMS to DD
       let lat_sign = lat.startsWith("S") ? -1 : 1
       let lat_deg = Number(lat.slice(1, 3))

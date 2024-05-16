@@ -1,5 +1,5 @@
 import { SNT } from "../lib/SNT"
-import { createLayerFromPoints } from "../utils/createLayerFromPoints"
+import { formatSNT } from "../utils/formatSNT"
 
 /**
  * Function to handle uploaded files.
@@ -29,16 +29,5 @@ function handleContent(map, text, format, filename) {
   const snt = new SNT()
   const features = snt.readFeatures(text)
 
-  const { vectorLayer, vectorSource, labelLayer } = createLayerFromPoints(
-    features,
-    format,
-    filename
-  )
-
-  map.addLayer(vectorLayer)
-  map.getView().fit(vectorSource.getExtent(), {
-    padding: [100, 100, 100, 100],
-    duration: 200
-  })
-  map.addLayer(labelLayer)
+  formatSNT(map, features, format, filename)
 }

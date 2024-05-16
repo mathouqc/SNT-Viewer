@@ -18,12 +18,15 @@
     // height: 24em;
     font-size: medium;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     border-radius: 4px;
     background-color: rgba($color: #fff, $alpha: 0.8);
     color: var(--ol-subtle-foreground-color);
     border: 1px solid rgba($color: #999, $alpha: 0.5);
     margin-top: 62px;
+    margin-left: 4.5em;
+    margin-right: 4.5em;
     pointer-events: all;
 
     & > div {

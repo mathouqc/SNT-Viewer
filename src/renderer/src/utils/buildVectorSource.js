@@ -10,17 +10,9 @@ import { Feature } from "ol"
  * @return {VectorSource}
  */
 export function buildVectorSource(features, format, name) {
-  let newFeatures
-
-  if (format === "SNT") {
-    newFeatures = createLineFromPoints(features, name)
-  } else {
-    newFeatures = features
-  }
-
   return new VectorSource({
     name: name,
-    features: newFeatures
+    features: format === "SNT" ? createLineFromPoints(features, name) : features
   })
 }
 

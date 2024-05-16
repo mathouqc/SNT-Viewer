@@ -1,7 +1,6 @@
 import { buildVectorSource } from "../utils/buildVectorSource"
 import { buildVectorLayer } from "../utils/buildVectorLayer"
 import { buildLabelSource } from "../utils/buildLabelSource"
-import { buildLabelLayer } from "../utils/buildLabelLayer"
 
 /**
  * Create lines from points from SNT file or filter features from other formats
@@ -18,13 +17,10 @@ export function createLayerFromPoints(pointFeatures, format, name) {
 
   // Create label points from lines
   const labelSource = buildLabelSource(vectorSource, format, name)
-  // Add text to label points
-  const labelLayer = buildLabelLayer(labelSource, format, name)
 
   return {
     vectorLayer: vectorLayer,
     vectorSource: vectorSource,
-    labelLayer: labelLayer,
     labelSource: labelSource
   }
 }

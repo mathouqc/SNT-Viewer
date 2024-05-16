@@ -9,7 +9,8 @@ import PopupFeature from "ol-ext/overlay/PopupFeature"
 export function setupPopup(map) {
   const select = new Select({
     hitTolerance: 2,
-    condition: singleClick
+    condition: singleClick,
+    layers: (layer) => layer.get("dataType") === "lines"
   })
 
   map.addInteraction(select)

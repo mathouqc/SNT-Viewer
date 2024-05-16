@@ -1,4 +1,5 @@
 import Button from "ol-ext/control/Button"
+import { zoomExtend } from "../utils/zoomExtend"
 import { toggleSettings } from "../settings/handleSettings"
 import { clearMap } from "../utils/clearMap"
 import { printPDF } from "../utils/printPDF"
@@ -8,6 +9,17 @@ import { printPDF } from "../utils/printPDF"
  * @param {Map} map
  */
 export function setupControls(map) {
+  const extend = new Button({
+    html: "E",
+    className: "extend-btn", // Defined in style.scss
+    title: "Zoom extend",
+    handleClick: () => {
+      zoomExtend(map)
+    }
+  })
+
+  map.addControl(extend)
+
   const settings = new Button({
     html: '<i class="fa fa-gear"></i>',
     className: "settings-btn", // Defined in style.scss
