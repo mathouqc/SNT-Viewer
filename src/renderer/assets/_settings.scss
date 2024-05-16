@@ -1,0 +1,41 @@
+#settings-ctn {
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: baseline;
+    pointer-events: none;
+
+    &.opened {
+        display: flex !important;
+    }
+}
+
+#settings {
+    z-index: 1000;
+    // width: 20em;
+    // height: 24em;
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: rgba($color: #fff, $alpha: 0.8);
+    color: var(--ol-subtle-foreground-color);
+    border: 1px solid rgba($color: #999, $alpha: 0.5);
+    margin-top: 62px;
+    pointer-events: all;
+
+    & > div {
+        margin: 1em 2em;
+    }
+
+    label {
+        display: inline-flex;
+        align-items: center;
+
+        input {
+            margin-left: 10px;
+        }
+    }
+}

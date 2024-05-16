@@ -1,4 +1,5 @@
 import Button from "ol-ext/control/Button"
+import { toggleSettings } from "../settings/handleSettings"
 import { clearMap } from "../utils/clearMap"
 import { printPDF } from "../utils/printPDF"
 
@@ -7,6 +8,17 @@ import { printPDF } from "../utils/printPDF"
  * @param {Map} map
  */
 export function setupControls(map) {
+  const settings = new Button({
+    html: '<i class="fa fa-gear"></i>',
+    className: "settings-btn", // Defined in style.scss
+    title: "Settings",
+    handleClick: () => {
+      toggleSettings()
+    }
+  })
+
+  map.addControl(settings)
+
   const upload = new Button({
     html: '<i class="fa fa-upload"></i>',
     className: "upload-btn", // Defined in style.scss

@@ -28,7 +28,7 @@ function labelStyleFunction(feature) {
   return new Style({
     text: new Text({
       text: no_ligne,
-      scale: 3,
+      scale: 2,
       rotation: rotation
     })
   })

@@ -15,6 +15,16 @@
 
   <body>
     <div id="map"></div>
+    <div id="settings-ctn">
+      <div id="settings">
+        <div id="settings-opacity">
+          <label>
+            Layer opacity
+            <input id="opacity-input" type="range" min="0" max="1" step="0.01" value="1" />
+          </label>
+        </div>
+      </div>
+    </div>
     <input id="file-upload" type="file" style="display: none"/>
     <script type="module" src="./renderer.js"></script>
   </body>

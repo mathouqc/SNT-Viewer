@@ -1,11 +1,14 @@
 @import "ol/ol.css";
 @import "ol-ext/dist/ol-ext.css";
+@import "settings";
 
 html,
 body {
     margin: 0;
     height: 100%;
+    min-width: 400px;
     font-family: sans-serif;
+    font-size: larger;
 }
 
 #map {
@@ -22,15 +25,20 @@ body {
 
 .upload-btn {
     top: 0.5em;
-    left: calc(50% - 3.5em);
+    left: calc(50% - 4.75em);
+}
+
+.settings-btn {
+    top: 0.5em;
+    left: calc(50% - 2.25em);
 }
 
 .clear-btn {
     top: 0.5em;
-    left: calc(50% - 1em);
+    left: calc(50% + 0.25em);
 }
 
 .print-btn {
     top: 0.5em;
-    left: calc(50% + 1.5em);
+    left: calc(50% + 2.75em);
 }

@@ -8,29 +8,33 @@ import { setupDragAndDrop } from "./setup/setupDragAndDrop"
 import { setupUploadHandler } from "./setup/setupUploadHandler"
 import { setupPopup } from "./setup/setupPopup"
 import { setupControls } from "./setup/setupControls"
+import { setupSettings } from "./setup/setupSettings"
 
 export class App {
   constructor() {
     useGeographic()
 
+    const baseLayer = new TileLayer({
+      source: new OSM()
+    })
+
     this.map = new Map({
       // Shift + click to rotate and zoom the map
       interactions: defaultInteractions().extend([new DragRotateAndZoom()]),
       target: "map",
-      layers: [
-        new TileLayer({
-          source: new OSM()
-        })
-      ],
+      layers: [baseLayer],
       view: new View({
         center: [-71.2292, 46.8379],
         zoom: 8
       })
     })
 
+    this.map.baseLayer = baseLayer
+
     setupDragAndDrop(this.map)
     setupUploadHandler(this.map)
     setupPopup(this.map)
     setupControls(this.map)
+    setupSettings(this.map)
   }
 }

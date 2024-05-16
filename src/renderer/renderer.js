@@ -1,3 +1,5 @@
 import { App } from "./src/main"
 
-new App()
+window.onload = () => {
+  new App()
+}
