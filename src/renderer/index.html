@@ -7,10 +7,10 @@
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; img-src 'self' data: https://tile.openstreetmap.org http://maps.google.com; font-src https:"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com; img-src 'self' data: https://tile.openstreetmap.org http://maps.google.com; font-src https:"
     />
     <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   </head>
 
   <body>
@@ -32,10 +32,16 @@
         <div id="settings-fontsize">
           <label>
             Font size
-            <input id="fontsize-input" type="range" min="0" max="100" step="1" value="16" />
+            <input id="fontsize-input" type="range" min="0" max="50" step="1" value="16" />
           </label>
         </div>
+        <div id="settings-download">
+          <a href="https://github.com/mathouqc/snt-viewer-app" target="_blank">Download App</a>
+        </div>
       </div>
+    </div>
+    <div id="layers-ctn">
+      <div id="layers"></div>
     </div>
     <input id="file-upload" type="file" style="display: none"/>
     <script type="module" src="./renderer.js"></script>

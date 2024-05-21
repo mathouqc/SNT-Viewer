@@ -1,5 +1,6 @@
 import "../assets/style.scss"
-import { Map, View } from "ol"
+import { MyMap } from "./lib/MyMap"
+import { View } from "ol"
 import { Tile as TileLayer } from "ol/layer.js"
 import { OSM } from "ol/source.js"
 import { useGeographic } from "ol/proj"
@@ -9,6 +10,7 @@ import { setupUploadHandler } from "./setup/setupUploadHandler"
 import { setupPopup } from "./setup/setupPopup"
 import { setupControls } from "./setup/setupControls"
 import { setupSettings } from "./setup/setupSettings"
+import { setupLayers } from "./setup/setupLayers"
 
 export class App {
   constructor() {
@@ -18,7 +20,7 @@ export class App {
       source: new OSM()
     })
 
-    this.map = new Map({
+    this.map = new MyMap({
       // Shift + click to rotate and zoom the map
       interactions: defaultInteractions().extend([new DragRotateAndZoom()]),
       target: "map",
@@ -36,5 +38,6 @@ export class App {
     setupPopup(this.map)
     setupControls(this.map)
     setupSettings(this.map)
+    setupLayers(this.map)
   }
 }

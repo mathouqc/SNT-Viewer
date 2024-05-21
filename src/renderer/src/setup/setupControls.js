@@ -1,8 +1,9 @@
 import Button from "ol-ext/control/Button"
-import { zoomExtend } from "../utils/zoomExtend"
-import { toggleSettings } from "../settings/handleSettings"
-import { clearMap } from "../utils/clearMap"
-import { printPDF } from "../utils/printPDF"
+import { zoomExtend } from "../controls/zoomExtend"
+import { toggleSettings } from "../setup/setupSettings"
+import { clearMap } from "../controls/clearMap"
+import { printPDF } from "../controls/printPDF"
+import { toggleLayers } from "../setup/setupLayers"
 
 /**
  * Function to add controls (upload and print buttons) to the map.
@@ -20,17 +21,6 @@ export function setupControls(map) {
 
   map.addControl(extend)
 
-  const settings = new Button({
-    html: '<i class="fa fa-gear"></i>',
-    className: "settings-btn", // Defined in style.scss
-    title: "Settings",
-    handleClick: () => {
-      toggleSettings()
-    }
-  })
-
-  map.addControl(settings)
-
   const upload = new Button({
     html: '<i class="fa fa-upload"></i>',
     className: "upload-btn", // Defined in style.scss
@@ -41,6 +31,17 @@ export function setupControls(map) {
   })
 
   map.addControl(upload)
+
+  const settings = new Button({
+    html: '<i class="fa fa-gear"></i>',
+    className: "settings-btn", // Defined in style.scss
+    title: "Settings",
+    handleClick: () => {
+      toggleSettings()
+    }
+  })
+
+  map.addControl(settings)
 
   const clear = new Button({
     html: '<i class="fa fa-trash"></i>',
@@ -63,4 +64,15 @@ export function setupControls(map) {
   })
 
   map.addControl(print)
+
+  const layers = new Button({
+    html: '<i class="fa fa-layer-group"></i>',
+    className: "layers-btn", // Defined in style.scss
+    title: "Layers",
+    handleClick: () => {
+      toggleLayers()
+    }
+  })
+
+  map.addControl(layers)
 }

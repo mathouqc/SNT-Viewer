@@ -1,7 +1,7 @@
 import DragAndDrop from "ol/interaction/DragAndDrop.js"
 // import { GeoJSON, KML } from "ol/format.js"
 import { SNT } from "../lib/SNT"
-import { formatSNT } from "../utils/formatSNT"
+import { loadSNT } from "../utils/loadSNT"
 
 let dragAndDropInteraction
 
@@ -23,7 +23,7 @@ export function setupDragAndDrop(map) {
     const filename = event.file.name
     const format = filename.substring(filename.lastIndexOf(".") + 1).toUpperCase()
 
-    formatSNT(map, event.features, format, filename)
+    loadSNT(map, event.features, format, filename)
   })
   map.addInteraction(dragAndDropInteraction)
 }

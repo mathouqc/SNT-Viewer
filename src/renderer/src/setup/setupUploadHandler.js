@@ -1,5 +1,5 @@
 import { SNT } from "../lib/SNT"
-import { formatSNT } from "../utils/formatSNT"
+import { loadSNT } from "../utils/loadSNT"
 
 /**
  * Function to handle uploaded files.
@@ -29,5 +29,5 @@ function handleContent(map, text, format, filename) {
   const snt = new SNT()
   const features = snt.readFeatures(text)
 
-  formatSNT(map, features, format, filename)
+  loadSNT(map, features, format, filename)
 }

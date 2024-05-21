@@ -9,12 +9,13 @@ import { Stroke, Style } from "ol/style"
  * @return {VectorLayer}
  */
 export function buildVectorLayer(vectorSource, format, name) {
-  return new VectorLayer({
-    name: name,
-    dataType: "lines",
+  const vectorLayer = new VectorLayer({
     source: vectorSource,
     style: format === "SNT" ? styleFunction : undefined
   })
+  vectorLayer.name = name
+  vectorLayer.dataType = "lines"
+  return vectorLayer
 }
 
 /**
@@ -24,7 +25,9 @@ function styleFunction(feature) {
   return new Style({
     stroke: new Stroke({
       color: feature.get("status") === "Acquis" ? "#2abf1d" : "#000bd9",
-      width: 3
+      width: document.getElementById("linesize-input")
+        ? document.getElementById("linesize-input").value
+        : 3
     })
   })
 }

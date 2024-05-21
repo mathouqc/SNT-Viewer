@@ -1,12 +1,13 @@
 @import "ol/ol.css";
 @import "ol-ext/dist/ol-ext.css";
 @import "settings";
+@import "layers";
 
 html,
 body {
     margin: 0;
     height: 100%;
-    min-width: 400px;
+    min-width: 350px;
     font-family: Helvetica, sans-serif;
     font-weight: bold;
     font-size: larger;
@@ -58,4 +59,9 @@ body {
 .print-btn {
     top: 0.5em;
     left: calc(50% + 2.75em);
+}
+
+.layers-btn {
+    top: 3em;
+    right: 0.5em;
 }

@@ -31,8 +31,10 @@ export function buildLabelSource(lineVectorSource, format, name) {
     )
   }
 
-  return new VectorSource({
-    name: name,
+  const vectorSource = new VectorSource({
     features: format === "SNT" ? features : undefined
   })
+  vectorSource.name = name
+
+  return vectorSource
 }

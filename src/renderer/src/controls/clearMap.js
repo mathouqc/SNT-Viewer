@@ -6,7 +6,7 @@ export function clearMap(map) {
   map
     .getLayers()
     .getArray()
-    .filter((layer) => layer.get("dataType") === "lines")
+    .filter((layer) => layer.dataType === "lines")
     .forEach((layer) => {
       map.removeLayer(layer)
     })

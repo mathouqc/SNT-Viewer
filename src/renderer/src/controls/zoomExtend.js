@@ -8,11 +8,15 @@ export function zoomExtend(map) {
   const layers = map
     .getLayers()
     .getArray()
-    .filter((layer) => layer.get("dataType") === "lines")
+    .filter((layer) => layer.dataType === "lines")
+
+  if (layers.length === 0) return
 
   const extend = Extend.createEmpty()
   layers.forEach((layer) => {
-    Extend.extend(extend, layer.getSource().getExtent())
+    if (layer.isVisible()) {
+      Extend.extend(extend, layer.getSource().getExtent())
+    }
   })
 
   map.getView().fit(extend, {

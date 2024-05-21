@@ -10,10 +10,12 @@ import { Feature } from "ol"
  * @return {VectorSource}
  */
 export function buildVectorSource(features, format, name) {
-  return new VectorSource({
-    name: name,
+  const vectorSource = new VectorSource({
     features: format === "SNT" ? createLineFromPoints(features, name) : features
   })
+  vectorSource.name = name
+
+  return vectorSource
 }
 
 /**

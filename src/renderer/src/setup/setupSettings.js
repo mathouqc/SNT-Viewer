@@ -1,6 +1,9 @@
-import { toggleSettings } from "../settings/handleSettings"
 import { Style, Stroke } from "ol/style"
 
+/**
+ * Function to handle the settings menu.
+ * @param {Map} map
+ */
 export function setupSettings(map) {
   // Toggle settings
   const settingsBtn = document.getElementsByClassName("settings-btn")
@@ -13,13 +16,9 @@ export function setupSettings(map) {
   // Opacity slider
   const opacityInput = document.getElementById("opacity-input")
   opacityInput.addEventListener("input", () => {
-    updateOpacity()
-  })
-
-  function updateOpacity() {
     const opacity = parseFloat(opacityInput.value)
     map.baseLayer.setOpacity(opacity)
-  }
+  })
 
   // Line size slider
   const linesizeInput = document.getElementById("linesize-input")
@@ -31,7 +30,8 @@ export function setupSettings(map) {
     const linesLayers = map
       .getLayers()
       .getArray()
-      .filter((layer) => layer.get("dataType") === "lines")
+      .filter((layer) => layer.dataType === "lines")
+
     for (const layer of linesLayers) {
       layer.setStyle((feature) => {
         return new Style({
@@ -57,4 +57,26 @@ export function setupSettings(map) {
       }
     }
   }
+}
+
+let settingsOpened = false
+
+export function toggleSettings() {
+  if (!settingsOpened) {
+    openSettings()
+    settingsOpened = true
+  } else {
+    closeSettings()
+    settingsOpened = false
+  }
+}
+
+function openSettings() {
+  settingsOpened = true
+  document.getElementById("settings-ctn").classList.add("opened")
+}
+
+function closeSettings() {
+  settingsOpened = false
+  document.getElementById("settings-ctn").classList.remove("opened")
 }

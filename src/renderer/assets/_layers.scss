@@ -1,0 +1,46 @@
+#layers-ctn {
+    display: none;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    justify-content: end;
+    align-items: baseline;
+    pointer-events: none;
+
+    &.opened {
+        display: flex !important;
+    }
+}
+
+#layers {
+    z-index: 999;
+    width: 200px;
+    height: 300px;
+    font-size: medium;
+    border-radius: 4px;
+    background-color: rgba($color: #fff, $alpha: 0.8);
+    color: var(--ol-subtle-foreground-color);
+    border: 1px solid rgba($color: #999, $alpha: 0.5);
+    margin-top: 7.5em;
+    margin-right: 0.7em;
+    overflow-x: scroll;
+    pointer-events: all;
+
+    & > div {
+        margin: 5px;
+
+        & > label {
+            display: flex;
+            align-items: center;
+
+            & > input {
+                margin-right: 5px;
+            }
+
+            & > p {
+                margin: 0;
+                text-wrap: nowrap;
+            }
+        }
+    }
+}

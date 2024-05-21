@@ -10,7 +10,7 @@ export function setupPopup(map) {
   const select = new Select({
     hitTolerance: 2,
     condition: singleClick,
-    layers: (layer) => layer.get("dataType") === "lines"
+    layers: (layer) => layer.dataType === "lines"
   })
 
   map.addInteraction(select)
