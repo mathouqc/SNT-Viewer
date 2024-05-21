@@ -1,34 +1,39 @@
-# electron-app
+# SNT Viewer App
 
-A minimal Electron application with JavaScript
+Application pour visualiser facilement les planifications en format SNT
 
-## Recommended IDE Setup
+Site web: https://snt-viewer.web.app
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+![App Screenshot](doc/screenshot.png)
+
+## Frameworks
+
+- **Javascript** pour programmer l'application
+- **OpenLayers** pour l'affichage de la carte
+- **Electron-vite** pour développer l'application bureau
 
 ## Project Setup
 
 ### Install
 
 ```bash
-$ npm install
+npm install
 ```
 
 ### Development
 
 ```bash
-$ npm run dev
+npm run dev
 ```
 
 ### Build
 
 ```bash
-# For windows
-$ npm run build:win
+npm run build:win
+```
 
-# For macOS
-$ npm run build:mac
+## Project Deploy
 
-# For Linux
-$ npm run build:linux
+```bash
+firebase deploy
 ```
