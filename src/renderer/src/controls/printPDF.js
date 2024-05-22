@@ -6,10 +6,13 @@ import { jsPDF } from "jspdf"
  */
 export function printPDF() {
   hideControls()
-  html2canvas(document.getElementById("map")).then((canvas) => {
+  html2canvas(document.getElementById("map"), {
+    scale: window.devicePixelRatio * 4
+  }).then((canvas) => {
     const pdf = new jsPDF({
       orientation: "landscape",
       unit: "px",
+      userUnit: 10,
       format: [canvas.width, canvas.height]
     })
     pdf.addImage(canvas.toDataURL("image/jpeg"), "JPEG", 0, 0, canvas.width, canvas.height)
