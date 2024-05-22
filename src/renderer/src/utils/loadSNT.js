@@ -8,6 +8,11 @@ import { createLayersFromSNT } from "../utils/createLayersFromSNT"
  * @param {string} filename - Name of the source file
  */
 export function loadSNT(map, features, format, filename) {
+  // Skip if already on the map
+  for (const layer of map.getLayers().getArray()) {
+    if (layer.name === filename) return
+  }
+
   const { vectorLayer, vectorSource } = createLayersFromSNT(map, features, format, filename)
 
   map.addLayer(vectorLayer)

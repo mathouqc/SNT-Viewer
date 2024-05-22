@@ -9,6 +9,7 @@ export function buildLabelOverlays(map, labelSource) {
   for (const feature of labelSource.getFeatures()) {
     const { no_ligne, rotation } = feature.getProperties()
 
+    // Create HTML element of the overlay
     const elem = document.createElement("div")
     if (document.getElementById("fontsize-input")) {
       elem.style.fontSize = document.getElementById("fontsize-input").value + "px"
@@ -17,6 +18,7 @@ export function buildLabelOverlays(map, labelSource) {
     elem.style.transform = `rotate(${rotation}rad)`
     elem.innerHTML = `${no_ligne}`
 
+    // Create the openlayers overlay
     const label = new Overlay({
       position: feature.getGeometry().getCoordinates(),
       positioning: "center-center",

@@ -1,5 +1,8 @@
-/** Update the layer list in the layer menu when a new Layer is added to the map */
-export function setupLayers(map) {
+/**
+ * Update the layer list in the layer menu when a new Layer is added to the map
+ * @param {Map} map
+ */
+export function setupLayerControl(map) {
   map.on("add:layer", () => {
     updateList(map)
   })
@@ -30,6 +33,7 @@ export function updateList(map) {
 
   // Add event listener to checkboxes
   document.querySelectorAll("#layers input[type='checkbox']").forEach((elem) => {
+    // Update layer and overlays visibility on checkbox change
     elem.addEventListener("change", (event) => {
       const layerName = event.target.parentNode.getElementsByTagName("p")[0].textContent
 
@@ -52,9 +56,11 @@ export function updateList(map) {
         .forEach((layer) => {
           if (layer.name === layerName) {
             layer.setVisible(!layer.isVisible())
-            updateList(map)
           }
         })
+
+      // Update layer menu after layer visiblity is changed
+      updateList(map)
     })
   })
 
@@ -77,18 +83,8 @@ export function updateList(map) {
 
 let layersOpened = false
 
-function openLayers() {
-  layersOpened = true
-  document.getElementById("layers-ctn").classList.add("opened")
-}
-
-function closeLayers() {
-  layersOpened = false
-  document.getElementById("layers-ctn").classList.remove("opened")
-}
-
 /**
- * Toggle the layers Menu
+ * Toggle the layers menu
  */
 export function toggleLayers() {
   if (!layersOpened) {
@@ -98,4 +94,14 @@ export function toggleLayers() {
     closeLayers()
     layersOpened = false
   }
+}
+
+function openLayers() {
+  layersOpened = true
+  document.getElementById("layers-ctn").classList.add("opened")
+}
+
+function closeLayers() {
+  layersOpened = false
+  document.getElementById("layers-ctn").classList.remove("opened")
 }

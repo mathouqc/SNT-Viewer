@@ -19,11 +19,11 @@ export class SNT extends TextFeature {
       let [ligne, photo, lat, lon] = line.slice(1).split(" ").slice(0, 4)
 
       // Skip empty line
-      if (!(ligne || photo || lat || lon)) {
+      if (!ligne && !photo && !lat && !lon) {
         continue
       }
 
-      // Convert text to number
+      // Remove padding of zeros (001 -> 1)
       ligne = String(Number(ligne))
       photo = String(Number(photo))
 

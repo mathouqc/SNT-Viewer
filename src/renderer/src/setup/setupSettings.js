@@ -5,14 +5,6 @@ import { Style, Stroke } from "ol/style"
  * @param {Map} map
  */
 export function setupSettings(map) {
-  // Toggle settings
-  const settingsBtn = document.getElementsByClassName("settings-btn")
-  for (const element of settingsBtn) {
-    element.addEventListener("click", () => {
-      toggleSettings()
-    })
-  }
-
   // Opacity slider
   const opacityInput = document.getElementById("opacity-input")
   opacityInput.addEventListener("input", () => {
@@ -61,6 +53,9 @@ export function setupSettings(map) {
 
 let settingsOpened = false
 
+/**
+ * Toggle the setings menu
+ */
 export function toggleSettings() {
   if (!settingsOpened) {
     openSettings()

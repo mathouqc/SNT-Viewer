@@ -3,10 +3,10 @@ import { zoomExtend } from "../controls/zoomExtend"
 import { toggleSettings } from "../setup/setupSettings"
 import { clearMap } from "../controls/clearMap"
 import { printPDF } from "../controls/printPDF"
-import { toggleLayers } from "../setup/setupLayers"
+import { toggleLayers } from "../setup/setupLayerControl"
 
 /**
- * Function to add controls (upload and print buttons) to the map.
+ * Function to add controls to the map.
  * @param {Map} map
  */
 export function setupControls(map) {

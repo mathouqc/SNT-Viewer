@@ -10,7 +10,7 @@ import { setupUploadHandler } from "./setup/setupUploadHandler"
 import { setupPopup } from "./setup/setupPopup"
 import { setupControls } from "./setup/setupControls"
 import { setupSettings } from "./setup/setupSettings"
-import { setupLayers } from "./setup/setupLayers"
+import { setupLayerControl } from "./setup/setupLayerControl"
 
 export class App {
   constructor() {
@@ -38,6 +38,6 @@ export class App {
     setupPopup(this.map)
     setupControls(this.map)
     setupSettings(this.map)
-    setupLayers(this.map)
+    setupLayerControl(this.map)
   }
 }

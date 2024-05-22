@@ -36,6 +36,7 @@ function createLineFromPoints(features, name) {
     const { no_ligne, no_photo, status } = feature.getProperties()
     const coords = feature.getGeometry().getCoordinates()
 
+    // Create lines grouped by consecutive no_ligne and status
     if (
       no_ligne === last_no_ligne &&
       status === last_status &&

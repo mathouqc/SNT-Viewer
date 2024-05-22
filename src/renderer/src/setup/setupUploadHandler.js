@@ -16,9 +16,10 @@ export function setupUploadHandler(map) {
 
     if (file && format === "SNT") {
       const reader = new FileReader()
-      reader.onload = (event) => {
-        const textData = event.target.result
+      reader.onload = (e) => {
+        const textData = e.target.result
         handleContent(map, textData, format, filename)
+        event.target.value = ""
       }
       reader.readAsText(file)
     }
