@@ -10,6 +10,11 @@ export class SNT extends TextFeature {
   readFeaturesFromText(text) {
     const features = []
     for (const line of text.split("\n")) {
+      // Skip comment line
+      if (line.startsWith(";")) {
+        continue
+      }
+
       let status = line.includes("*") ? "Acquis" : "Ouvert"
       let [ligne, photo, lat, lon] = line.slice(1).split(" ").slice(0, 4)
 
