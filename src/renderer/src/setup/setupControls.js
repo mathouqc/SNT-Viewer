@@ -1,9 +1,9 @@
-import Button from "ol-ext/control/Button"
-import { zoomExtend } from "../controls/zoomExtend"
-import { toggleSettings } from "../setup/setupSettings"
-import { clearMap } from "../controls/clearMap"
-import { printPDF } from "../controls/printPDF"
-import { toggleLayers } from "../setup/setupLayerControl"
+import Button from "ol-ext/control/Button";
+import { zoomExtend } from "../controls/zoomExtend";
+import { toggleSettings } from "../setup/setupSettings";
+import { clearMap } from "../controls/clearMap";
+import { printPDF } from "../controls/printPDF";
+import { toggleLayers } from "../setup/setupLayerControl";
 
 /**
  * Function to add controls to the map.
@@ -15,64 +15,64 @@ export function setupControls(map) {
     className: "extend-btn", // Defined in style.scss
     title: "Zoom extend",
     handleClick: () => {
-      zoomExtend(map)
-    }
-  })
+      zoomExtend(map);
+    },
+  });
 
-  map.addControl(extend)
+  map.addControl(extend);
 
   const upload = new Button({
     html: '<i class="fa fa-upload"></i>',
     className: "upload-btn", // Defined in style.scss
     title: "Upload",
     handleClick: () => {
-      document.getElementById("file-upload").click()
-    }
-  })
+      document.getElementById("file-upload").click();
+    },
+  });
 
-  map.addControl(upload)
+  map.addControl(upload);
 
   const settings = new Button({
     html: '<i class="fa fa-gear"></i>',
     className: "settings-btn", // Defined in style.scss
     title: "Settings",
     handleClick: () => {
-      toggleSettings()
-    }
-  })
+      toggleSettings();
+    },
+  });
 
-  map.addControl(settings)
+  map.addControl(settings);
 
   const clear = new Button({
     html: '<i class="fa fa-trash"></i>',
     className: "clear-btn", // Defined in style.scss
     title: "Clear",
     handleClick: () => {
-      clearMap(map)
-    }
-  })
+      clearMap(map);
+    },
+  });
 
-  map.addControl(clear)
+  map.addControl(clear);
 
   const print = new Button({
     html: '<i class="fa fa-print"></i>',
     className: "print-btn", // Defined in style.scss
     title: "Print",
     handleClick: () => {
-      printPDF()
-    }
-  })
+      printPDF();
+    },
+  });
 
-  map.addControl(print)
+  map.addControl(print);
 
   const layers = new Button({
     html: '<i class="fa fa-layer-group"></i>',
     className: "layers-btn", // Defined in style.scss
     title: "Layers",
     handleClick: () => {
-      toggleLayers()
-    }
-  })
+      toggleLayers();
+    },
+  });
 
-  map.addControl(layers)
+  map.addControl(layers);
 }

@@ -1,24 +1,24 @@
-import html2canvas from "html2canvas"
-import { jsPDF } from "jspdf"
+import html2canvas from "html2canvas";
+import { jsPDF } from "jspdf";
 
 /**
  * Generate a pdf from a screenshot of the map without the controls
  */
 export function printPDF() {
-  hideControls()
+  hideControls();
   html2canvas(document.getElementById("map"), {
-    scale: window.devicePixelRatio * 4
+    scale: window.devicePixelRatio * 4,
   }).then((canvas) => {
     const pdf = new jsPDF({
       orientation: "landscape",
       unit: "px",
       userUnit: 10,
-      format: [canvas.width, canvas.height]
-    })
-    pdf.addImage(canvas.toDataURL("image/jpeg"), "JPEG", 0, 0, canvas.width, canvas.height)
-    pdf.save("map.pdf")
-  })
-  showControls()
+      format: [canvas.width, canvas.height],
+    });
+    pdf.addImage(canvas.toDataURL("image/jpeg"), "JPEG", 0, 0, canvas.width, canvas.height);
+    pdf.save("map.pdf");
+  });
+  showControls();
 }
 
 function hideControls() {
@@ -29,11 +29,11 @@ function hideControls() {
     ...document.getElementsByClassName("layers-btn"),
     ...document.getElementsByClassName("settings-btn"),
     ...document.getElementsByClassName("extend-btn"),
-    ...document.getElementsByClassName("upload-btn")
-  ]
+    ...document.getElementsByClassName("upload-btn"),
+  ];
   elements.forEach((element) => {
-    element.style.display = "none"
-  })
+    element.style.display = "none";
+  });
 }
 
 function showControls() {
@@ -44,9 +44,9 @@ function showControls() {
     ...document.getElementsByClassName("layers-btn"),
     ...document.getElementsByClassName("settings-btn"),
     ...document.getElementsByClassName("extend-btn"),
-    ...document.getElementsByClassName("upload-btn")
-  ]
+    ...document.getElementsByClassName("upload-btn"),
+  ];
   elements.forEach((element) => {
-    element.style.display = "block"
-  })
+    element.style.display = "block";
+  });
 }

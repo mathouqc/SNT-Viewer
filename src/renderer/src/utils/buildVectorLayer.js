@@ -1,5 +1,5 @@
-import { Vector as VectorLayer } from "ol/layer.js"
-import { Stroke, Style } from "ol/style"
+import { Vector as VectorLayer } from "ol/layer.js";
+import { Stroke, Style } from "ol/style";
 
 /**
  * Apply custom style and properties to a vector source to create a vector layer
@@ -10,16 +10,16 @@ import { Stroke, Style } from "ol/style"
  */
 export function buildVectorLayer(vectorSource, format, name) {
   const styleFunction = createLineStyleFunction(
-    document.getElementById("linesize-input") ? document.getElementById("linesize-input").value : 3
-  )
+    document.getElementById("linesize-input") ? document.getElementById("linesize-input").value : 3,
+  );
 
   const vectorLayer = new VectorLayer({
     source: vectorSource,
-    style: format === "SNT" ? styleFunction : undefined
-  })
-  vectorLayer.name = name
-  vectorLayer.dataType = "lines"
-  return vectorLayer
+    style: format === "SNT" ? styleFunction : undefined,
+  });
+  vectorLayer.name = name;
+  vectorLayer.dataType = "lines";
+  return vectorLayer;
 }
 
 /**
@@ -30,8 +30,8 @@ export function createLineStyleFunction(width) {
     return new Style({
       stroke: new Stroke({
         color: feature.get("status") === "Acquis" ? "#2abf1d" : "#000bd9",
-        width: width
-      })
-    })
-  }
+        width: width,
+      }),
+    });
+  };
 }

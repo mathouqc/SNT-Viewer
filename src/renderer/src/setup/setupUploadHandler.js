@@ -1,5 +1,5 @@
-import { SNT } from "../lib/SNT"
-import { loadSNT } from "../utils/loadSNT"
+import { SNT } from "../lib/SNT";
+import { loadSNT } from "../utils/loadSNT";
 
 /**
  * Function to handle uploaded files.
@@ -9,26 +9,26 @@ import { loadSNT } from "../utils/loadSNT"
  */
 export function setupUploadHandler(map) {
   document.getElementById("file-upload").addEventListener("change", (event) => {
-    const file = event.target.files[0]
+    const file = event.target.files[0];
 
-    const filename = file.name
-    const format = filename.substring(filename.lastIndexOf(".") + 1).toUpperCase()
+    const filename = file.name;
+    const format = filename.substring(filename.lastIndexOf(".") + 1).toUpperCase();
 
     if (file && format === "SNT") {
-      const reader = new FileReader()
+      const reader = new FileReader();
       reader.onload = (e) => {
-        const textData = e.target.result
-        handleContent(map, textData, format, filename)
-        event.target.value = ""
-      }
-      reader.readAsText(file)
+        const textData = e.target.result;
+        handleContent(map, textData, format, filename);
+        event.target.value = "";
+      };
+      reader.readAsText(file);
     }
-  })
+  });
 }
 
 function handleContent(map, text, format, filename) {
-  const snt = new SNT()
-  const features = snt.readFeatures(text)
+  const snt = new SNT();
+  const features = snt.readFeatures(text);
 
-  loadSNT(map, features, format, filename)
+  loadSNT(map, features, format, filename);
 }

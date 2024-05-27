@@ -1,7 +1,7 @@
-import { buildVectorSource } from "../utils/buildVectorSource"
-import { buildVectorLayer } from "../utils/buildVectorLayer"
-import { buildLabelSource } from "../utils/buildLabelSource"
-import { buildLabelOverlays } from "./buildLabelOverlays"
+import { buildVectorSource } from "../utils/buildVectorSource";
+import { buildVectorLayer } from "../utils/buildVectorLayer";
+import { buildLabelSource } from "../utils/buildLabelSource";
+import { buildLabelOverlays } from "./buildLabelOverlays";
 
 /**
  * Create lines from points from SNT file or filter features from other formats
@@ -13,18 +13,18 @@ import { buildLabelOverlays } from "./buildLabelOverlays"
  */
 export function createLayersFromSNT(map, pointFeatures, format, name) {
   // Create lines from points
-  const vectorSource = buildVectorSource(pointFeatures, format, name)
+  const vectorSource = buildVectorSource(pointFeatures, format, name);
   // Add style to lines
-  const vectorLayer = buildVectorLayer(vectorSource, format, name)
+  const vectorLayer = buildVectorLayer(vectorSource, format, name);
 
   // Create label points from lines
-  const labelSource = buildLabelSource(vectorSource, format, name)
+  const labelSource = buildLabelSource(vectorSource, format, name);
 
   // Create label overlays from points
-  buildLabelOverlays(map, labelSource)
+  buildLabelOverlays(map, labelSource);
 
   return {
     vectorLayer: vectorLayer,
-    vectorSource: vectorSource
-  }
+    vectorSource: vectorSource,
+  };
 }

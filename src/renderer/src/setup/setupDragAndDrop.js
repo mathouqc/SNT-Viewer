@@ -1,9 +1,9 @@
-import DragAndDrop from "ol/interaction/DragAndDrop.js"
+import DragAndDrop from "ol/interaction/DragAndDrop.js";
 // import { GeoJSON, KML } from "ol/format.js"
-import { SNT } from "../lib/SNT"
-import { loadSNT } from "../utils/loadSNT"
+import { SNT } from "../lib/SNT";
+import { loadSNT } from "../utils/loadSNT";
 
-let dragAndDropInteraction
+let dragAndDropInteraction;
 
 /**
  * Function to add DragAndDrop capabilities to the map.
@@ -13,17 +13,17 @@ let dragAndDropInteraction
  */
 export function setupDragAndDrop(map) {
   if (dragAndDropInteraction) {
-    map.removeInteraction(dragAndDropInteraction)
+    map.removeInteraction(dragAndDropInteraction);
   }
   dragAndDropInteraction = new DragAndDrop({
     // formatConstructors: [GeoJSON, KML, SNT]
-    formatConstructors: [SNT]
-  })
+    formatConstructors: [SNT],
+  });
   dragAndDropInteraction.on("addfeatures", (event) => {
-    const filename = event.file.name
-    const format = filename.substring(filename.lastIndexOf(".") + 1).toUpperCase()
+    const filename = event.file.name;
+    const format = filename.substring(filename.lastIndexOf(".") + 1).toUpperCase();
 
-    loadSNT(map, event.features, format, filename)
-  })
-  map.addInteraction(dragAndDropInteraction)
+    loadSNT(map, event.features, format, filename);
+  });
+  map.addInteraction(dragAndDropInteraction);
 }

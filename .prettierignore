@@ -1,5 +1,6 @@
-out
+node_modules
 dist
+out
 pnpm-lock.yaml
 LICENSE.md
 tsconfig.json

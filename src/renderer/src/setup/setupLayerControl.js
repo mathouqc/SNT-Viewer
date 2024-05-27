@@ -4,12 +4,12 @@
  */
 export function setupLayerControl(map) {
   map.on("add:layer", () => {
-    updateList(map)
-  })
+    updateList(map);
+  });
 
   map.on("remove:layer", () => {
-    updateList(map)
-  })
+    updateList(map);
+  });
 }
 
 /**
@@ -18,8 +18,8 @@ export function setupLayerControl(map) {
  */
 export function updateList(map) {
   // Clear layer menu element
-  const layersElem = document.getElementById("layers")
-  layersElem.innerHTML = ""
+  const layersElem = document.getElementById("layers");
+  layersElem.innerHTML = "";
 
   // Add elements to the layers element
   map
@@ -27,15 +27,15 @@ export function updateList(map) {
     .getArray()
     .filter((layer) => layer.dataType === "lines")
     .forEach((layer) => {
-      const div = createListElem(layer)
-      layersElem.appendChild(div)
-    })
+      const div = createListElem(layer);
+      layersElem.appendChild(div);
+    });
 
   // Add event listener to checkboxes
   document.querySelectorAll("#layers input[type='checkbox']").forEach((elem) => {
     // Update layer and overlays visibility on checkbox change
     elem.addEventListener("change", (event) => {
-      const layerName = event.target.parentNode.getElementsByTagName("p")[0].textContent
+      const layerName = event.target.parentNode.getElementsByTagName("p")[0].textContent;
 
       // Toggle overlays visibility
       map
@@ -44,9 +44,9 @@ export function updateList(map) {
         .filter((overlay) => overlay.dataType === "label")
         .forEach((overlay) => {
           if (overlay.filename === layerName) {
-            overlay.setShow(!overlay.show)
+            overlay.setShow(!overlay.show);
           }
-        })
+        });
 
       // Toggle layer visibility
       map
@@ -55,53 +55,53 @@ export function updateList(map) {
         .filter((layer) => layer.dataType === "lines")
         .forEach((layer) => {
           if (layer.name === layerName) {
-            layer.setVisible(!layer.isVisible())
+            layer.setVisible(!layer.isVisible());
           }
-        })
+        });
 
       // Update layer menu after layer visiblity is changed
-      updateList(map)
-    })
-  })
+      updateList(map);
+    });
+  });
 
   function createListElem(layer) {
-    const div = document.createElement("div")
-    const label = document.createElement("label")
-    const input = document.createElement("input")
-    input.type = "checkbox"
+    const div = document.createElement("div");
+    const label = document.createElement("label");
+    const input = document.createElement("input");
+    input.type = "checkbox";
     if (layer.isVisible()) {
-      input.checked = true
+      input.checked = true;
     }
-    label.appendChild(input)
-    const p = document.createElement("p")
-    p.textContent = layer.name
-    label.appendChild(p)
-    div.appendChild(label)
-    return div
+    label.appendChild(input);
+    const p = document.createElement("p");
+    p.textContent = layer.name;
+    label.appendChild(p);
+    div.appendChild(label);
+    return div;
   }
 }
 
-let layersOpened = false
+let layersOpened = false;
 
 /**
  * Toggle the layers menu
  */
 export function toggleLayers() {
   if (!layersOpened) {
-    openLayers()
-    layersOpened = true
+    openLayers();
+    layersOpened = true;
   } else {
-    closeLayers()
-    layersOpened = false
+    closeLayers();
+    layersOpened = false;
   }
 }
 
 function openLayers() {
-  layersOpened = true
-  document.getElementById("layers-ctn").classList.add("opened")
+  layersOpened = true;
+  document.getElementById("layers-ctn").classList.add("opened");
 }
 
 function closeLayers() {
-  layersOpened = false
-  document.getElementById("layers-ctn").classList.remove("opened")
+  layersOpened = false;
+  document.getElementById("layers-ctn").classList.remove("opened");
 }

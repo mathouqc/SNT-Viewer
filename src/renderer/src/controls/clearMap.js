@@ -8,14 +8,14 @@ export function clearMap(map) {
     .getArray()
     .filter((layer) => layer.dataType === "lines")
     .forEach((layer) => {
-      map.removeLayer(layer)
-    })
+      map.removeLayer(layer);
+    });
 
   map
     .getOverlays()
     .getArray()
     .filter((overlay) => overlay.dataType === "label")
     .forEach((overlay) => {
-      map.removeOverlay(overlay)
-    })
+      map.removeOverlay(overlay);
+    });
 }

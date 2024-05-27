@@ -1,6 +1,6 @@
-import { Vector as VectorSource } from "ol/source.js"
-import { LineString } from "ol/geom"
-import { Feature } from "ol"
+import { Vector as VectorSource } from "ol/source.js";
+import { LineString } from "ol/geom";
+import { Feature } from "ol";
 
 /**
  * Create lines from points from SNT file or filter features from other formats
@@ -11,11 +11,11 @@ import { Feature } from "ol"
  */
 export function buildVectorSource(features, format, name) {
   const vectorSource = new VectorSource({
-    features: format === "SNT" ? createLineFromPoints(features, name) : features
-  })
-  vectorSource.name = name
+    features: format === "SNT" ? createLineFromPoints(features, name) : features,
+  });
+  vectorSource.name = name;
 
-  return vectorSource
+  return vectorSource;
 }
 
 /**
@@ -25,16 +25,16 @@ export function buildVectorSource(features, format, name) {
  * @return {Array<Feature>}
  */
 function createLineFromPoints(features, name) {
-  const lignes = {}
-  let id = 0
+  const lignes = {};
+  let id = 0;
 
-  let last_no_photo
-  let last_no_ligne
-  let last_status
+  let last_no_photo;
+  let last_no_ligne;
+  let last_status;
 
   for (const feature of features) {
-    const { no_ligne, no_photo, status } = feature.getProperties()
-    const coords = feature.getGeometry().getCoordinates()
+    const { no_ligne, no_photo, status } = feature.getProperties();
+    const coords = feature.getGeometry().getCoordinates();
 
     // Create lines grouped by consecutive no_ligne and status
     if (
@@ -42,33 +42,33 @@ function createLineFromPoints(features, name) {
       status === last_status &&
       Number(no_photo) === last_no_photo + 1
     ) {
-      lignes[id].coords.push(coords)
+      lignes[id].coords.push(coords);
     } else {
-      id += 1
+      id += 1;
       lignes[id] = {
         no_ligne: no_ligne,
         status: status,
-        coords: [coords]
-      }
+        coords: [coords],
+      };
     }
 
-    last_no_photo = Number(no_photo)
-    last_no_ligne = no_ligne
-    last_status = status
+    last_no_photo = Number(no_photo);
+    last_no_ligne = no_ligne;
+    last_status = status;
   }
 
-  const lineFeatures = []
+  const lineFeatures = [];
   for (const ligne of Object.values(lignes)) {
-    const { no_ligne, status, coords } = ligne
+    const { no_ligne, status, coords } = ligne;
     lineFeatures.push(
       new Feature({
         name: name,
         geometry: new LineString(coords),
         no_ligne: no_ligne,
-        status: status
-      })
-    )
+        status: status,
+      }),
+    );
   }
 
-  return lineFeatures
+  return lineFeatures;
 }

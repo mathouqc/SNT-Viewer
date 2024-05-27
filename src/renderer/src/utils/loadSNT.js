@@ -1,4 +1,4 @@
-import { createLayersFromSNT } from "../utils/createLayersFromSNT"
+import { createLayersFromSNT } from "../utils/createLayersFromSNT";
 
 /**
  * Create layers from SNT features, then add them to the map and zoom to extend
@@ -10,14 +10,14 @@ import { createLayersFromSNT } from "../utils/createLayersFromSNT"
 export function loadSNT(map, features, format, filename) {
   // Skip if already on the map
   for (const layer of map.getLayers().getArray()) {
-    if (layer.name === filename) return
+    if (layer.name === filename) return;
   }
 
-  const { vectorLayer, vectorSource } = createLayersFromSNT(map, features, format, filename)
+  const { vectorLayer, vectorSource } = createLayersFromSNT(map, features, format, filename);
 
-  map.addLayer(vectorLayer)
+  map.addLayer(vectorLayer);
   map.getView().fit(vectorSource.getExtent(), {
     padding: [10, 10, 10, 10],
-    duration: 200
-  })
+    duration: 200,
+  });
 }

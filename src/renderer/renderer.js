@@ -1,11 +1,11 @@
-import { App } from "./src/main"
+import { App } from "./src/main";
 
 window.onload = () => {
-  new App()
+  new App();
 
   // Hide download button if on electron
-  var userAgent = navigator.userAgent.toLowerCase()
+  var userAgent = navigator.userAgent.toLowerCase();
   if (userAgent.indexOf(" electron/") > -1) {
-    document.getElementById("settings-download").remove()
+    document.getElementById("settings-download").remove();
   }
-}
+};
