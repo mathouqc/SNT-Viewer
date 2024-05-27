@@ -9,6 +9,10 @@ import { Stroke, Style } from "ol/style"
  * @return {VectorLayer}
  */
 export function buildVectorLayer(vectorSource, format, name) {
+  const styleFunction = createLineStyleFunction(
+    document.getElementById("linesize-input") ? document.getElementById("linesize-input").value : 3
+  )
+
   const vectorLayer = new VectorLayer({
     source: vectorSource,
     style: format === "SNT" ? styleFunction : undefined
@@ -21,13 +25,13 @@ export function buildVectorLayer(vectorSource, format, name) {
 /**
  * Create style function to change color based on status if format is SNT
  */
-function styleFunction(feature) {
-  return new Style({
-    stroke: new Stroke({
-      color: feature.get("status") === "Acquis" ? "#2abf1d" : "#000bd9",
-      width: document.getElementById("linesize-input")
-        ? document.getElementById("linesize-input").value
-        : 3
+export function createLineStyleFunction(width) {
+  return (feature) => {
+    return new Style({
+      stroke: new Stroke({
+        color: feature.get("status") === "Acquis" ? "#2abf1d" : "#000bd9",
+        width: width
+      })
     })
-  })
+  }
 }

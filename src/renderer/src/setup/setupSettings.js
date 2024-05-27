@@ -1,4 +1,4 @@
-import { Style, Stroke } from "ol/style"
+import { createLineStyleFunction } from "../utils/buildVectorLayer"
 
 /**
  * Function to handle the settings menu.
@@ -25,14 +25,7 @@ export function setupSettings(map) {
       .filter((layer) => layer.dataType === "lines")
 
     for (const layer of linesLayers) {
-      layer.setStyle((feature) => {
-        return new Style({
-          stroke: new Stroke({
-            color: feature.get("status") === "Acquis" ? "#2abf1d" : "#000bd9",
-            width: linesizeInput.value
-          })
-        })
-      })
+      layer.setStyle(createLineStyleFunction(linesizeInput.value))
     }
   }
 
