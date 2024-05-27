@@ -20,6 +20,10 @@ body {
     width: 100%;
 }
 
+.ol-touch .ol-control button {
+    font-size: inherit !important;
+}
+
 .ol-control button {
     height: 2em;
     width: 2em;
