@@ -8,7 +8,7 @@ import { Stroke, Style } from "ol/style";
  * @param {string} name - Name of the layer (filename for example)
  * @return {VectorLayer}
  */
-export function buildVectorLayer(vectorSource, format, name) {
+export function buildLineLayer(vectorSource, format, name) {
   const styleFunction = createLineStyleFunction(
     document.getElementById("linesize-input") ? document.getElementById("linesize-input").value : 3,
   );

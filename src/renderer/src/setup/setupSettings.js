@@ -1,4 +1,4 @@
-import { createLineStyleFunction } from "../utils/buildVectorLayer";
+import { createLineStyleFunction } from "../utils/buildLineLayer";
 
 /**
  * Function to handle the settings menu.

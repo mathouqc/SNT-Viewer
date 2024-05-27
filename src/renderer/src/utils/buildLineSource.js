@@ -9,7 +9,7 @@ import { Feature } from "ol";
  * @param {string} name - Name of the source (filename for example)
  * @return {VectorSource}
  */
-export function buildVectorSource(features, format, name) {
+export function buildLineSource(features, format, name) {
   const vectorSource = new VectorSource({
     features: format === "SNT" ? createLineFromPoints(features, name) : features,
   });
