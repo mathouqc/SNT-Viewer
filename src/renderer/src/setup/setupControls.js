@@ -1,3 +1,4 @@
+import Control from "ol/control/Control";
 import Button from "ol-ext/control/Button";
 import { zoomExtend } from "../controls/zoomExtend";
 import { toggleSettings } from "../setup/setupSettings";
@@ -26,7 +27,7 @@ export function setupControls(map) {
     className: "upload-btn", // Defined in style.scss
     title: "Upload",
     handleClick: () => {
-      document.getElementById("file-upload").click();
+      document.getElementById("file-upload").click(); // See setupUploadHandler.js
     },
   });
 
@@ -75,4 +76,29 @@ export function setupControls(map) {
   });
 
   map.addControl(layers);
+
+  const version = new Control({
+    element: createVersionDivElem(map),
+  });
+
+  map.addControl(version);
+}
+
+function createVersionDivElem(map) {
+  const versionDiv = document.createElement("div");
+  versionDiv.classList.add("ol-attribution");
+  versionDiv.classList.add("ol-unselectable");
+  versionDiv.classList.add("ol-control");
+  versionDiv.classList.add("ol-uncollapsible");
+  versionDiv.style.right = "auto";
+  versionDiv.style.left = 0;
+
+  const ul = document.createElement("ul");
+  versionDiv.appendChild(ul);
+  const li = document.createElement("li");
+  ul.appendChild(li);
+
+  li.textContent = map.appVersion;
+
+  return versionDiv;
 }
