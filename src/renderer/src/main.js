@@ -31,7 +31,7 @@ export class App {
       }),
     });
 
-    this.map.appVersion = "v1.0.2";
+    this.map.appVersion = "v1.1.0";
     this.map.baseLayer = baseLayer;
 
     setupDragAndDrop(this.map);

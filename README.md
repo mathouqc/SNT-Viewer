@@ -2,7 +2,7 @@
 
 Application pour visualiser facilement les planifications en format SNT
 
-Site web: https://snt-viewer.web.app
+Site web: https://snt-view.web.app
 
 ![App Screenshot](doc/screenshot.png)
 
