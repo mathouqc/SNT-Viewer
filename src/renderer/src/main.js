@@ -34,7 +34,7 @@ export class App {
       }),
     });
 
-    this.map.appVersion = "v1.1.0";
+    this.map.appVersion = "v1.1.1";
     this.map.baseLayer = baseLayer;
     this.map.airportLayer = airportLayer;
 
