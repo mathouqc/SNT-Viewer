@@ -19,6 +19,7 @@ export function buildLabelSource(lineVectorSource, format, name) {
     const [last_x, last_y] = proj4("EPSG:3857", lineString.getCoordinates().pop());
 
     const no_ligne = line.get("no_ligne");
+    const status = line.get("status");
 
     const rotation = -Math.atan2(last_y - first_y, last_x - first_x);
 
@@ -26,6 +27,7 @@ export function buildLabelSource(lineVectorSource, format, name) {
       new Feature({
         geometry: new Point(lineString.getCoordinateAt(1 / 2)),
         no_ligne: no_ligne,
+        status: status,
         rotation: rotation,
       }),
     );

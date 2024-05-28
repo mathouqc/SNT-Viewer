@@ -1,4 +1,5 @@
 import { Overlay } from "ol";
+import { updateSettings } from "../setup/setupSettings";
 
 /**
  * Create overlays for each label point and add them to the map
@@ -7,7 +8,7 @@ import { Overlay } from "ol";
  */
 export function buildLabelOverlays(map, labelSource) {
   for (const feature of labelSource.getFeatures()) {
-    const { no_ligne, rotation } = feature.getProperties();
+    const { no_ligne, status, rotation } = feature.getProperties();
 
     // Create HTML element of the overlay
     const elem = document.createElement("div");
@@ -29,6 +30,8 @@ export function buildLabelOverlays(map, labelSource) {
     // Custom properties and function
     label.dataType = "label";
     label.filename = labelSource.name;
+    label.layerActive = true;
+    label.status = status;
 
     label.show = true;
     label.setShow = (bool) => {
@@ -40,4 +43,7 @@ export function buildLabelOverlays(map, labelSource) {
 
     map.addOverlay(label);
   }
+
+  // Update map settings
+  updateSettings(map);
 }

@@ -1,3 +1,5 @@
+import { updateSettings } from "./setupSettings";
+
 /**
  * Update the layer list in the layer menu when a new Layer is added to the map
  * @param {Map} map
@@ -35,6 +37,7 @@ export function updateList(map) {
   document.querySelectorAll("#layers input[type='checkbox']").forEach((elem) => {
     // Update layer and overlays visibility on checkbox change
     elem.addEventListener("change", (event) => {
+      const visible = event.target.checked;
       const layerName = event.target.parentNode.getElementsByTagName("p")[0].textContent;
 
       // Toggle overlays visibility
@@ -44,7 +47,8 @@ export function updateList(map) {
         .filter((overlay) => overlay.dataType === "label")
         .forEach((overlay) => {
           if (overlay.filename === layerName) {
-            overlay.setShow(!overlay.show);
+            overlay.setShow(visible);
+            overlay.layerActive = visible;
           }
         });
 
@@ -55,12 +59,15 @@ export function updateList(map) {
         .filter((layer) => layer.dataType === "lines")
         .forEach((layer) => {
           if (layer.name === layerName) {
-            layer.setVisible(!layer.isVisible());
+            layer.setVisible(visible);
+            layer.layerActive = visible;
           }
         });
 
       // Update layer menu after layer visiblity is changed
       updateList(map);
+      // Update map settings
+      updateSettings(map);
     });
   });
 

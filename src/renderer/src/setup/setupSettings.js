@@ -8,37 +8,67 @@ export function setupSettings(map) {
   // Opacity slider
   const opacityInput = document.getElementById("opacity-input");
   opacityInput.addEventListener("input", () => {
-    const opacity = parseFloat(opacityInput.value);
-    map.baseLayer.setOpacity(opacity);
+    map.mySettings.baseLayerOpacity = parseFloat(opacityInput.value);
+    updateSettings(map);
   });
 
   // Line size slider
   const linesizeInput = document.getElementById("linesize-input");
   linesizeInput.addEventListener("input", () => {
-    updateLinesize();
+    map.mySettings.lineSize = linesizeInput.value;
+    updateSettings(map);
   });
-
-  function updateLinesize() {
-    const linesLayers = map
-      .getLayers()
-      .getArray()
-      .filter((layer) => layer.dataType === "lines");
-
-    for (const layer of linesLayers) {
-      layer.setStyle(createLineStyleFunction(linesizeInput.value));
-    }
-  }
 
   // Font size slider
   const fontsizeInput = document.getElementById("fontsize-input");
   fontsizeInput.addEventListener("input", () => {
-    updateFontsize();
+    map.mySettings.fontSize = fontsizeInput.value;
+    updateSettings(map);
   });
 
-  function updateFontsize() {
-    for (const overlay of map.getOverlays().getArray()) {
-      for (const childElem of overlay.element.children) {
-        childElem.style.fontSize = fontsizeInput.value + "px";
+  //Show flown checkbox
+  const flownInput = document.getElementById("flown-input");
+  flownInput.addEventListener("change", () => {
+    map.mySettings.showFlown = flownInput.checked;
+    updateSettings(map);
+  });
+
+  // Default settings
+  map.mySettings = {
+    baseLayerOpacity: opacityInput ? parseFloat(opacityInput) : 1,
+    lineSize: linesizeInput ? linesizeInput.value : 3,
+    fontSize: fontsizeInput ? fontsizeInput.value : 16,
+    showFlown: flownInput ? flownInput.checked : true,
+  };
+}
+
+/**
+ * Update settings of the map
+ * @param {Map} map
+ */
+export function updateSettings(map) {
+  // Update opacity
+  map.baseLayer.setOpacity(map.mySettings.baseLayerOpacity);
+  // Update lineSize and showFlown
+  const linesLayers = map
+    .getLayers()
+    .getArray()
+    .filter((layer) => layer.dataType === "lines");
+
+  for (const layer of linesLayers) {
+    layer.setStyle(createLineStyleFunction(map.mySettings.showFlown, map.mySettings.lineSize));
+  }
+  // Update fontSize
+  for (const overlay of map.getOverlays().getArray()) {
+    for (const childElem of overlay.element.children) {
+      childElem.style.fontSize = map.mySettings.fontSize + "px";
+    }
+    // Update showFlown
+    if (overlay.layerActive) {
+      if (overlay.status === "Acquis" && !map.mySettings.showFlown) {
+        overlay.setShow(false);
+      } else {
+        overlay.setShow(true);
       }
     }
   }

@@ -15,7 +15,7 @@ export function createLayersFromSNT(map, pointFeatures, format, name) {
   // Create lines from points
   const vectorSource = buildLineSource(pointFeatures, format, name);
   // Add style to lines
-  const vectorLayer = buildLineLayer(vectorSource, format, name);
+  buildLineLayer(map, vectorSource, format, name);
 
   // Create label points from lines
   const labelSource = buildLabelSource(vectorSource, format, name);
@@ -23,8 +23,5 @@ export function createLayersFromSNT(map, pointFeatures, format, name) {
   // Create label overlays from points
   buildLabelOverlays(map, labelSource);
 
-  return {
-    vectorLayer: vectorLayer,
-    vectorSource: vectorSource,
-  };
+  return vectorSource;
 }

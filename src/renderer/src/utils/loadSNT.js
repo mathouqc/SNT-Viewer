@@ -13,9 +13,8 @@ export function loadSNT(map, features, format, filename) {
     if (layer.name === filename) return;
   }
 
-  const { vectorLayer, vectorSource } = createLayersFromSNT(map, features, format, filename);
+  const vectorSource = createLayersFromSNT(map, features, format, filename);
 
-  map.addLayer(vectorLayer);
   map.getView().fit(vectorSource.getExtent(), {
     padding: [10, 10, 10, 10],
     duration: 200,
