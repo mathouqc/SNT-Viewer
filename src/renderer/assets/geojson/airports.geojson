@@ -1,0 +1,4443 @@
+{
+  "type": "FeatureCollection",
+  "name": "airports",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CCV4",
+        "Station": "BELL ISLAND"
+      },
+      "geometry": { "type": "Point", "coordinates": [-52.983333333333299, 47.633333333333297, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CCE4",
+        "Station": "BLACK TICKLE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-55.7875, 53.47, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CBC9",
+        "Station": "BURGEO (CALDER HEALTH CARE CORP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-57.623333333333299, 47.613055555555597, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CYCA",
+        "Station": "CARTWRIGHT"
+      },
+      "geometry": { "type": "Point", "coordinates": [-57.041944444444397, 53.682777777777801, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CCH4",
+        "Station": "CHARLOTTETOWN"
+      },
+      "geometry": { "type": "Point", "coordinates": [-56.1125, 52.765833333333298, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CZUM",
+        "Station": "CHURCHILL FALLS"
+      },
+      "geometry": { "type": "Point", "coordinates": [-64.106388888888901, 53.5619444444444, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CCZ3",
+        "Station": "CLARENVILLE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-53.923888888888897, 48.274722222222202, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CYDF",
+        "Station": "DEER LAKE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-57.394444444444403, 49.209166666666697, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CCP2",
+        "Station": "EXPLOITS VALLEY (BOTWOOD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-55.448055555555598, 49.0561111111111, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CDY3",
+        "Station": "FOGO"
+      },
+      "geometry": { "type": "Point", "coordinates": [-54.2375, 49.6575, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CYQX",
+        "Station": "GANDER INTL"
+      },
+      "geometry": { "type": "Point", "coordinates": [-54.568055555555603, 48.9369444444444, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CGH2",
+        "Station": "GANDER (JAMES PATON MEM REGIONAL HEALTH CENTRE) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-54.627222222222201, 48.955277777777802, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CYYR",
+        "Station": "GOOSE BAY"
+      },
+      "geometry": { "type": "Point", "coordinates": [-60.425833333333301, 53.319166666666703, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CFW8",
+        "Station": "GRAND FALLS-WINDSOR (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-55.647222222222197, 48.924722222222201, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CHG2",
+        "Station": "HARBOUR GRACE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-53.253888888888902, 47.685555555555602, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CYHO",
+        "Station": "HOPEDALE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-60.228055555555599, 55.448888888888902, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CCX2",
+        "Station": "LONG POND (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-52.980833333333301, 47.516111111111101, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CYFT",
+        "Station": "MAKKOVIK"
+      },
+      "geometry": { "type": "Point", "coordinates": [-59.1875, 55.077222222222197, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CYMH",
+        "Station": "MARY'S HARBOUR"
+      },
+      "geometry": { "type": "Point", "coordinates": [-55.8477777777778, 52.302777777777798, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CYDP",
+        "Station": "NAIN"
+      },
+      "geometry": { "type": "Point", "coordinates": [-61.682222222222201, 56.550555555555597, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CNH2",
+        "Station": "NATUASHISH"
+      },
+      "geometry": { "type": "Point", "coordinates": [-61.184444444444402, 55.913888888888899, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CCM4",
+        "Station": "PORT AU CHOIX"
+      },
+      "geometry": { "type": "Point", "coordinates": [-57.331388888888902, 50.688888888888897, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CCP4",
+        "Station": "PORT HOPE SIMPSON"
+      },
+      "geometry": { "type": "Point", "coordinates": [-56.2852777777778, 52.528055555555603, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CCD4",
+        "Station": "POSTVILLE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-59.7852777777778, 54.9102777777778, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CCZ2",
+        "Station": "RIGOLET"
+      },
+      "geometry": { "type": "Point", "coordinates": [-58.4577777777778, 54.1794444444444, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CDA5",
+        "Station": "ST. ANDREWS (CODROY VALLEY)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-59.3125, 47.775833333333303, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CYAY",
+        "Station": "ST. ANTHONY"
+      },
+      "geometry": { "type": "Point", "coordinates": [-56.083055555555603, 51.391944444444398, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CYYT",
+        "Station": "ST. JOHN'S INTL"
+      },
+      "geometry": { "type": "Point", "coordinates": [-52.7525, 47.6186111111111, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CDC2",
+        "Station": "ST. JOHN'S (UNIVERSAL) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-52.726944444444399, 47.608333333333299, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CCK4",
+        "Station": "ST. LEWIS (FOX HARBOUR)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-55.673888888888897, 52.372777777777799, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CCD2",
+        "Station": "SPRINGDALE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-56.178055555555602, 49.478888888888903, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CYJT",
+        "Station": "STEPHENVILLE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-58.55, 48.541388888888903, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CVB2",
+        "Station": "VOISEY'S BAY"
+      },
+      "geometry": { "type": "Point", "coordinates": [-62.088055555555599, 56.344722222222202, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CYWK",
+        "Station": "WABUSH"
+      },
+      "geometry": { "type": "Point", "coordinates": [-66.864722222222198, 52.922777777777803, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CCA6",
+        "Station": "WILLIAMS HARBOUR"
+      },
+      "geometry": { "type": "Point", "coordinates": [-55.785, 52.5675, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_A_TERRE-NEUVE_ET_LABRADOR",
+        "Id": "CCC2",
+        "Station": "WINTERLAND"
+      },
+      "geometry": { "type": "Point", "coordinates": [-55.329166666666701, 47.136944444444403, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CZBF",
+        "Station": "BATHURST"
+      },
+      "geometry": { "type": "Point", "coordinates": [-65.738888888888894, 47.629722222222199, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CCJ3",
+        "Station": "BOSTON BROOK"
+      },
+      "geometry": { "type": "Point", "coordinates": [-67.624722222222204, 47.448611111111099, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CDA6",
+        "Station": "BRISTOL"
+      },
+      "geometry": { "type": "Point", "coordinates": [-67.564722222222201, 46.4594444444445, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CCX3",
+        "Station": "BROCKWAY"
+      },
+      "geometry": { "type": "Point", "coordinates": [-67.1, 45.566666666666698, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CDT5",
+        "Station": "BUCTOUCHE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-64.693888888888907, 46.509444444444398, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CCRH",
+        "Station": "CAMPBELLTON (REGIONAL HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-66.665277777777803, 47.9941666666667, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK", "Id": "CYCL", "Station": "CHARLO" },
+      "geometry": { "type": "Point", "coordinates": [-66.330277777777795, 47.990833333333299, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CCS4",
+        "Station": "CHIPMAN"
+      },
+      "geometry": { "type": "Point", "coordinates": [-65.904166666666697, 46.148611111111101, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CDJ4",
+        "Station": "CLEARWATER"
+      },
+      "geometry": { "type": "Point", "coordinates": [-66.828333333333305, 46.713333333333303, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CDU6",
+        "Station": "DOAKTOWN"
+      },
+      "geometry": { "type": "Point", "coordinates": [-66.093888888888898, 46.5525, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CDV2",
+        "Station": "DOWNS GULCH"
+      },
+      "geometry": { "type": "Point", "coordinates": [-67.426111111111098, 47.753611111111098, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CYES",
+        "Station": "EDMUNDSTON"
+      },
+      "geometry": { "type": "Point", "coordinates": [-68.481944444444494, 47.490555555555602, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CCY5",
+        "Station": "EDMUNDSTON (REGIONAL HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-68.311944444444407, 47.376388888888897, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CCR3",
+        "Station": "FLORENCEVILLE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-67.628055555555505, 46.426111111111098, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CYFC",
+        "Station": "FREDERICTON INTL"
+      },
+      "geometry": { "type": "Point", "coordinates": [-66.537222222222198, 45.868888888888897, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CRC2",
+        "Station": "FREDERICTON (RCMP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-66.6666666666667, 45.9316666666667, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CYCX",
+        "Station": "GAGETOWN (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-66.433333333333294, 45.8333333333333, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CCK3",
+        "Station": "GRAND FALLS"
+      },
+      "geometry": { "type": "Point", "coordinates": [-67.685, 47.075, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CCN2",
+        "Station": "GRAND MANAN"
+      },
+      "geometry": { "type": "Point", "coordinates": [-66.796388888888899, 44.713333333333303, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CCS5",
+        "Station": "HAVELOCK"
+      },
+      "geometry": { "type": "Point", "coordinates": [-65.301944444444402, 45.986388888888897, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CCE3",
+        "Station": "JUNIPER"
+      },
+      "geometry": { "type": "Point", "coordinates": [-67.168333333333294, 46.562777777777796, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CYCH",
+        "Station": "MIRAMICHI"
+      },
+      "geometry": { "type": "Point", "coordinates": [-65.449166666666699, 47.007777777777797, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CYQM",
+        "Station": "MONCTON/GREATER MONCTON INTL"
+      },
+      "geometry": { "type": "Point", "coordinates": [-64.678611111111096, 46.112222222222201, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CCG4",
+        "Station": "MONCTON/McEWEN"
+      },
+      "geometry": { "type": "Point", "coordinates": [-64.768611111111099, 46.153888888888901, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CDB5",
+        "Station": "MONCTON/SALISBURY (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-65.0625, 46.049444444444397, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CDA4",
+        "Station": "POKEMOUCHE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-64.8825, 47.716388888888901, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CYSJ",
+        "Station": "SAINT JOHN"
+      },
+      "geometry": { "type": "Point", "coordinates": [-65.89, 45.316111111111098, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CSN6",
+        "Station": "SAINT JOHN (SAINT JOHN REGIONAL HOSPITAL) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-66.088055555555599, 45.302222222222198, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CYSL",
+        "Station": "ST. LEONARD"
+      },
+      "geometry": { "type": "Point", "coordinates": [-67.834722222222197, 47.1575, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CDC4",
+        "Station": "ST-QUENTIN"
+      },
+      "geometry": { "type": "Point", "coordinates": [-67.421111111111102, 47.521111111111097, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CCS3",
+        "Station": "ST. STEPHEN"
+      },
+      "geometry": { "type": "Point", "coordinates": [-67.250555555555593, 45.2075, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CCF9",
+        "Station": "SCOTTSFIELD AIRPARK"
+      },
+      "geometry": { "type": "Point", "coordinates": [-67.095277777777795, 45.960277777777797, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CCM3",
+        "Station": "SEVOGLE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-66.15, 47.183333333333302, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CSB5",
+        "Station": "SHEDIAC BRIDGE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-64.576666666666696, 46.254722222222199, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK", "Id": "CCY3", "Station": "SUSSEX" },
+      "geometry": { "type": "Point", "coordinates": [-65.541944444444397, 45.686388888888899, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CCH2",
+        "Station": "UPPER KENT"
+      },
+      "geometry": { "type": "Point", "coordinates": [-67.719166666666695, 46.5875, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CCG3",
+        "Station": "WEYMAN AIRPARK"
+      },
+      "geometry": { "type": "Point", "coordinates": [-66.858888888888899, 46.0375, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_NOUVEAU-BRUNSWICK",
+        "Id": "CCD3",
+        "Station": "WOODSTOCK"
+      },
+      "geometry": { "type": "Point", "coordinates": [-67.55, 46.15, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYKO", "Station": "AKULIVIK" },
+      "geometry": { "type": "Point", "coordinates": [-78.148611111111094, 60.818611111111103, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYTF", "Station": "ALMA" },
+      "geometry": { "type": "Point", "coordinates": [-71.641388888888898, 48.508611111111101, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYEY", "Station": "AMOS/MAGNY" },
+      "geometry": { "type": "Point", "coordinates": [-78.249166666666696, 48.565, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYLA", "Station": "AUPALUK" },
+      "geometry": { "type": "Point", "coordinates": [-69.599722222222198, 59.296666666666702, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYBG", "Station": "BAGOTVILLE" },
+      "geometry": { "type": "Point", "coordinates": [-70.996388888888902, 48.330555555555598, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYBC", "Station": "BAIE-COMEAU" },
+      "geometry": { "type": "Point", "coordinates": [-68.204444444444405, 49.1325, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSN9",
+        "Station": "BAIE-COMEAU/HÉLI-MANICOUAGAN (heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-68.285277777777793, 49.198888888888902, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSL9",
+        "Station": "BAIE-COMEAU (manic 1)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-68.3625, 49.184444444444402, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CTD4",
+        "Station": "BAIE-ST-PAUL  (heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.516388888888898, 47.4433333333333, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSV3", "Station": "BÉCANCOUR  (heli)" },
+      "geometry": { "type": "Point", "coordinates": [-72.396111111111097, 46.365, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYVB", "Station": "BONAVENTURE" },
+      "geometry": { "type": "Point", "coordinates": [-65.460277777777804, 48.071111111111101, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CZBM", "Station": "BROMONT" },
+      "geometry": { "type": "Point", "coordinates": [-72.7419444444444, 45.290833333333303, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CCP6", "Station": "CANIAPISCAU" },
+      "geometry": { "type": "Point", "coordinates": [-69.892777777777795, 54.837777777777802, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CTF3", "Station": "CAUSAPSCAL" },
+      "geometry": { "type": "Point", "coordinates": [-67.251388888888897, 48.311388888888899, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYML", "Station": "CHARLEVOIX" },
+      "geometry": { "type": "Point", "coordinates": [-70.223888888888894, 47.5975, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYHR", "Station": "CHEVERY" },
+      "geometry": { "type": "Point", "coordinates": [-59.636666666666699, 50.468888888888898, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CYMT",
+        "Station": "CHIBOUGAMAU/CHAPAIS"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.528055555555596, 49.771944444444401, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSB4",
+        "Station": "CHIBOUGAMAU (heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.383333333333297, 49.9, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSE2",
+        "Station": "CHIBOUGAMAU (hydro-quebec heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.400277777777802, 49.887777777777799, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CCS7",
+        "Station": "CHICOUTIMI (c.h. de chicoutimi heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.047777777777796, 48.425833333333301, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CYRC",
+        "Station": "CHICOUTIMI/ST-HONORE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.050555555555505, 48.5208333333333, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSU2", "Station": "CHISASIBI" },
+      "geometry": { "type": "Point", "coordinates": [-78.916944444444496, 53.8055555555556, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CCP3",
+        "Station": "CHUTE-ST-PHILLIPPE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-75.245, 46.661111111111097, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CYDO",
+        "Station": "DOLBEAU-ST-FELICIEN"
+      },
+      "geometry": { "type": "Point", "coordinates": [-72.375, 48.7783333333333, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CPH4",
+        "Station": "DOLBEAU-MISTASSINI/POTVIN HELI BASE (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-72.205, 48.930833333333297, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSC3", "Station": "DRUMMONDVILLE" },
+      "geometry": { "type": "Point", "coordinates": [-72.3947222222222, 45.845277777777802, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CTG3",
+        "Station": "DU ROCHER-PERCÉ (PABOK)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-64.564444444444405, 48.383333333333297, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CZEM", "Station": "EASTMAIN RIVER" },
+      "geometry": { "type": "Point", "coordinates": [-78.5225, 52.226388888888899, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CEL8", "Station": "ÉLÉONORE" },
+      "geometry": { "type": "Point", "coordinates": [-76.080277777777795, 52.718611111111102, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSN7", "Station": "FARNHAM" },
+      "geometry": { "type": "Point", "coordinates": [-73.007777777777804, 45.285555555555597, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSD5", "Station": "FERMONT (Heli)" },
+      "geometry": { "type": "Point", "coordinates": [-67.102222222222196, 52.8061111111111, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CTU2", "Station": "FONTANGES" },
+      "geometry": { "type": "Point", "coordinates": [-71.173333333333304, 54.553888888888899, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYFE", "Station": "FORESTVILLE" },
+      "geometry": { "type": "Point", "coordinates": [-69.0972222222222, 48.746111111111098, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYGP", "Station": "GASPE" },
+      "geometry": { "type": "Point", "coordinates": [-64.479722222222193, 48.775277777777802, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CTR4",
+        "Station": "GRANBY/ARTOPEX PLUS (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-72.766111111111101, 45.390833333333298, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CTH3",
+        "Station": "GRANDES-BERGERONNES"
+      },
+      "geometry": { "type": "Point", "coordinates": [-69.5427777777778, 48.232222222222198, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CTH5",
+        "Station": "HARRINGTON HARBOUR (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-59.480555555555597, 50.496111111111098, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYGV", "Station": "HAVRE ST-PIERRE" },
+      "geometry": { "type": "Point", "coordinates": [-63.6111111111111, 50.281944444444399, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CTA3", "Station": "ILE AUX COUDRES" },
+      "geometry": { "type": "Point", "coordinates": [-70.384444444444497, 47.389444444444401, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSH2", "Station": "ILE-AUX-GRUES" },
+      "geometry": { "type": "Point", "coordinates": [-70.533333333333303, 47.072222222222202, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CYGR",
+        "Station": "ILES-DE-LA-MADELEINE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-61.778055555555603, 47.425, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYPH", "Station": "INUKJUAK" },
+      "geometry": { "type": "Point", "coordinates": [-78.076944444444393, 58.471944444444397, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYIK", "Station": "IVUJIVIK" },
+      "geometry": { "type": "Point", "coordinates": [-77.925277777777794, 62.4172222222222, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSG3", "Station": "JOLIETTE" },
+      "geometry": { "type": "Point", "coordinates": [-73.501666666666694, 46.045, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSJ2", "Station": "KANAWATA AEROPARC" },
+      "geometry": { "type": "Point", "coordinates": [-74.133611111111094, 47.594722222222202, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CYLU",
+        "Station": "KANGIQSUALUJJUAQ (GEORGES RIVER)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-65.992777777777803, 58.711388888888898, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CYKG",
+        "Station": "KANGIQSUJUAQ (WAKEHAM BAY)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.9294444444444, 61.588611111111099, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYAS", "Station": "KANGIRSUK" },
+      "geometry": { "type": "Point", "coordinates": [-69.999166666666696, 60.0272222222222, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CTP9",
+        "Station": "KATTINIQ/DONALDSON"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.321388888888904, 61.662222222222198, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CTK6", "Station": "KEGASKA" },
+      "geometry": { "type": "Point", "coordinates": [-61.265833333333298, 50.195833333333297, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYVP", "Station": "KUUJJUAQ" },
+      "geometry": { "type": "Point", "coordinates": [-68.426944444444402, 58.096111111111099, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYGW", "Station": "KUUJJUARAPIK" },
+      "geometry": { "type": "Point", "coordinates": [-77.765277777777797, 55.281944444444399, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSA2",
+        "Station": "LAC AGILE (MASCOUCHE)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.638055555555596, 45.791944444444397, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CTE5", "Station": "LAC-LA-PERCHAUDE" },
+      "geometry": { "type": "Point", "coordinates": [-72.845555555555507, 46.6225, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSL3", "Station": "LAC-A-LA-TORTUE" },
+      "geometry": { "type": "Point", "coordinates": [-72.630277777777806, 46.621666666666698, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSC5", "Station": "LAC ETCHEMIN" },
+      "geometry": { "type": "Point", "coordinates": [-70.501388888888897, 46.407222222222202, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSE4", "Station": "LACHUTE" },
+      "geometry": { "type": "Point", "coordinates": [-74.370555555555597, 45.639444444444401, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYGL", "Station": "LA GRANDE RIVIERE" },
+      "geometry": { "type": "Point", "coordinates": [-77.704166666666694, 53.625277777777796, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYAD", "Station": "LA GRANDE-3" },
+      "geometry": { "type": "Point", "coordinates": [-76.196388888888904, 53.571944444444398, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYAH", "Station": "LA GRANDE-4" },
+      "geometry": { "type": "Point", "coordinates": [-73.675277777777794, 53.754722222222199, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CYFJ",
+        "Station": "LA MACAZA/MONT-TREMBLANT INTL INC"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.78, 46.409444444444397, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CTT5", "Station": "LA ROMAINE" },
+      "geometry": { "type": "Point", "coordinates": [-60.673888888888897, 50.259722222222202, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSR8", "Station": "LA SARRE" },
+      "geometry": { "type": "Point", "coordinates": [-79.178611111111096, 48.9172222222222, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSL2", "Station": "LA SARRE (Heli)" },
+      "geometry": { "type": "Point", "coordinates": [-79.251666666666694, 48.808611111111098, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CTU5", "Station": "LA TABATIERE" },
+      "geometry": { "type": "Point", "coordinates": [-58.975555555555601, 50.830833333333302, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYLQ", "Station": "LA TUQUE" },
+      "geometry": { "type": "Point", "coordinates": [-72.788888888888906, 47.4097222222222, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSH4",
+        "Station": "LEBEL-SUR-QUEVILLON"
+      },
+      "geometry": { "type": "Point", "coordinates": [-77.017222222222202, 49.030277777777798, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CTQ4",
+        "Station": "LENNOXVILLE (AIRVIEW)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.8625, 45.353333333333303, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSJ4", "Station": "LOUISEVILLE" },
+      "geometry": { "type": "Point", "coordinates": [-72.904444444444493, 46.246111111111098, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CYBX",
+        "Station": "LOURDES-DE-BLANC-SABLON"
+      },
+      "geometry": { "type": "Point", "coordinates": [-57.185277777777799, 51.443611111111103, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSE3",
+        "Station": "LOURDES-DE-JOLIETTE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.452777777777797, 46.109444444444399, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CMN5", "Station": "MANIC-5" },
+      "geometry": { "type": "Point", "coordinates": [-68.8325, 50.6575, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYMW", "Station": "MANIWAKI" },
+      "geometry": { "type": "Point", "coordinates": [-75.990555555555602, 46.272777777777797, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSK4", "Station": "MANSONVILLE" },
+      "geometry": { "type": "Point", "coordinates": [-72.401944444444496, 45.026388888888903, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYNM", "Station": "MATAGAMI" },
+      "geometry": { "type": "Point", "coordinates": [-77.802777777777806, 49.761666666666699, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYME", "Station": "MATANE" },
+      "geometry": { "type": "Point", "coordinates": [-67.452222222222204, 48.856388888888901, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "LFVM", "Station": "MIQUELON" },
+      "geometry": { "type": "Point", "coordinates": [-56.386111111111099, 47.093888888888898, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYYY", "Station": "MONT-JOLI" },
+      "geometry": { "type": "Point", "coordinates": [-68.2075, 48.608888888888899, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSD4", "Station": "MONT-LAURIER" },
+      "geometry": { "type": "Point", "coordinates": [-75.577777777777797, 46.564444444444398, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSE5", "Station": "MONTMAGNY" },
+      "geometry": { "type": "Point", "coordinates": [-70.515833333333305, 47.001944444444398, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSP6",
+        "Station": "MONTRÉAL/AÉROPARC ILE PERROT"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.907222222222202, 45.376111111111101, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSW5",
+        "Station": "MONTRÉAL (BELL) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.931111111111093, 45.685, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSH9",
+        "Station": "MONTRÉAL EAST (AIM) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.562222222222204, 45.635833333333302, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CYMX",
+        "Station": "MONTRÉAL INTL (MIRABEL)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.038611111111095, 45.6805555555556, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSN2",
+        "Station": "MONTRÉAL/KRUGER (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.635833333333295, 45.5069444444444, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CLP2",
+        "Station": "MONTRÉAL/LAVAL (ARTOPEX PLUS) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.75, 45.578611111111101, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSS3",
+        "Station": "MONTRÉAL/LES CEDRES"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.076666666666696, 45.3475, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSH6",
+        "Station": "MONTRÉAL/LES CEDRES (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.0833333333333, 45.35, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CCH5",
+        "Station": "MONTREAL/LONGUEUIL (CENTRE HOSPITALIER PIERRE-BOUCHER) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.46, 45.538055555555601, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CST2",
+        "Station": "MONTREAL/MARINA VENIS (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.778888888888901, 45.6325, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSK3",
+        "Station": "MONTREAL/MASCOUCHE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.598055555555504, 45.718611111111102, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CYUL",
+        "Station": "MONTREAL/PIERRE ELLIOTT TRUDEAU INTL"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.740833333333299, 45.470555555555599, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CPZ6",
+        "Station": "MONTREAL/POINT ZERO (HELI)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.6575, 45.529722222222198, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSZ8",
+        "Station": "MONTREAL (SACRÉ-COEUR) (HELI)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.7125, 45.533055555555599, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CYHU",
+        "Station": "MONTREAL/ST-HUBERT"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.416944444444496, 45.518055555555598, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CTG2",
+        "Station": "MONTREAL/ST-HUBERT HELICRAFT (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.411666666666704, 45.5325, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CST3",
+        "Station": "MONTREAL/ST-LAZARE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.134166666666701, 45.3925, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSZ3",
+        "Station": "MONT-TREMBLANT/ST-JOVITE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.583611111111097, 46.154166666666697, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CHT3",
+        "Station": "MONT-TREMBLANT/ST-JOVITE (HELI-TREMBLANT) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.541388888888903, 46.114166666666698, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYNA", "Station": "NATASHQUAN" },
+      "geometry": { "type": "Point", "coordinates": [-61.788888888888899, 50.19, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYHH", "Station": "NEMISCAU" },
+      "geometry": { "type": "Point", "coordinates": [-76.135555555555598, 51.691111111111098, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSK9", "Station": "NICOLET (Heli)" },
+      "geometry": { "type": "Point", "coordinates": [-72.647777777777804, 46.220277777777802, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CPN8", "Station": "OPINACA" },
+      "geometry": { "type": "Point", "coordinates": [-76.611944444444404, 52.221944444444397, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYND", "Station": "OTTAWA/GATINEAU" },
+      "geometry": { "type": "Point", "coordinates": [-75.563611111111101, 45.521666666666697, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CTA9",
+        "Station": "OTTAWA/GATINEAU (CASINO) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-75.726388888888906, 45.446388888888897, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYPP", "Station": "PARENT" },
+      "geometry": { "type": "Point", "coordinates": [-74.608055555555595, 47.931944444444397, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CPN2", "Station": "PONTIAC AIRPAK" },
+      "geometry": { "type": "Point", "coordinates": [-76.169166666666698, 45.5275, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYPN", "Station": "PORT-MENIER" },
+      "geometry": { "type": "Point", "coordinates": [-64.288611111111095, 49.836388888888898, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSY6",
+        "Station": "POSTE LEMOYNE (COMPLEX LG-3) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-75.031388888888898, 53.482777777777798, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSF3",
+        "Station": "POSTE MONTAGNAIS (MILE 134)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-65.715, 51.888611111111103, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CPM3", "Station": "POURVOIRIE MIRAGE" },
+      "geometry": { "type": "Point", "coordinates": [-72.841388888888901, 53.8025, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYPX", "Station": "PUVIRNITUQ" },
+      "geometry": { "type": "Point", "coordinates": [-77.2875, 60.052222222222198, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYHA", "Station": "QUAQTAQ" },
+      "geometry": { "type": "Point", "coordinates": [-69.617777777777803, 61.046388888888899, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CYQB",
+        "Station": "QUEBEC/JEAN LESAGE INTL"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.393333333333302, 46.7911111111111, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CTS2",
+        "Station": "QUEBEC/BEAUPORT (HQ) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.193888888888907, 46.879166666666698, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CTJ2",
+        "Station": "QUEBEC (COAST GUARD) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.203611111111101, 46.8061111111111, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSZ2",
+        "Station": "QUEBEC (COMPLEX H) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.211666666666702, 46.807222222222201, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CTJ5",
+        "Station": "QUÉBEC/HOPITAL DE L'ENFANT-JESUS (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.225277777777805, 46.8375, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSX3", "Station": "RICHELIEU" },
+      "geometry": { "type": "Point", "coordinates": [-73.234166666666695, 45.447777777777802, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYXK", "Station": "RIMOUSKI" },
+      "geometry": { "type": "Point", "coordinates": [-68.496944444444495, 48.478055555555599, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CTH7",
+        "Station": "RIVIERE-AUX-SAUMONS"
+      },
+      "geometry": { "type": "Point", "coordinates": [-62.295277777777798, 49.401388888888903, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CRB5", "Station": "RIVIERE BELL" },
+      "geometry": { "type": "Point", "coordinates": [-62.236944444444397, 49.078888888888898, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CRB4", "Station": "RIVIERE BONNARD" },
+      "geometry": { "type": "Point", "coordinates": [-71.1625, 50.704444444444398, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYRI", "Station": "RIVIERE-DU-LOUP" },
+      "geometry": { "type": "Point", "coordinates": [-69.584444444444401, 47.764444444444401, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSS2",
+        "Station": "RIVIERE-DU-LOUP (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-69.533333333333303, 47.85, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CRT2",
+        "Station": "RIVIERE TÉMISCAMIE (AIR ROBERVAL LTEE)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-72.983333333333306, 51.008611111111101, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYRJ", "Station": "ROBERVAL" },
+      "geometry": { "type": "Point", "coordinates": [-72.265555555555594, 48.52, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CTY5", "Station": "ROUGEMONT" },
+      "geometry": { "type": "Point", "coordinates": [-73.037777777777805, 45.438333333333297, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYUY", "Station": "ROUYN-NORANDA" },
+      "geometry": { "type": "Point", "coordinates": [-78.835555555555501, 48.206111111111099, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSG9", "Station": "SAGARD (Heli)" },
+      "geometry": { "type": "Point", "coordinates": [-70.0775, 47.990833333333299, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSV2",
+        "Station": "STE-AGATHE (AIM) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.3, 46.116666666666703, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CDD3",
+        "Station": "STE-AGNES-DE-DUNDEE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.343333333333305, 45.0475, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CAA2",
+        "Station": "ST-ANDRÉ-AVELLIN (RICHARD MARCOTTE)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-75.072222222222194, 45.741111111111103, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CYSZ",
+        "Station": "STE-ANNE-DES-MONTS"
+      },
+      "geometry": { "type": "Point", "coordinates": [-66.528888888888901, 49.12, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CTQ6", "Station": "ST-ANSELME" },
+      "geometry": { "type": "Point", "coordinates": [-70.955, 46.621944444444402, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYIF", "Station": "ST-AUGUSTIN" },
+      "geometry": { "type": "Point", "coordinates": [-58.6575, 51.209722222222197, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CTH9",
+        "Station": "ST-AUGUSTIN (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-58.643333333333302, 51.221111111111099, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CTR6",
+        "Station": "ST-BASILE (MARCOTTE)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.8263888888889, 46.783611111111099, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CTA4",
+        "Station": "ST-BRUNO-DE-GUIGUES"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.418055555555597, 47.449166666666699, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSS4", "Station": "ST-DOMINIQUE" },
+      "geometry": { "type": "Point", "coordinates": [-72.818888888888907, 45.6325, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSY4", "Station": "ST-DONAT" },
+      "geometry": { "type": "Point", "coordinates": [-74.181388888888904, 46.305833333333297, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CES2", "Station": "ST-ESPRIT" },
+      "geometry": { "type": "Point", "coordinates": [-73.6725, 45.911388888888901, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSH5", "Station": "ST-FERDINAND" },
+      "geometry": { "type": "Point", "coordinates": [-71.536111111111097, 46.126111111111101, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSZ4", "Station": "ST-FREDERIC" },
+      "geometry": { "type": "Point", "coordinates": [-70.960833333333298, 46.331388888888902, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYSG", "Station": "ST-GEORGES" },
+      "geometry": { "type": "Point", "coordinates": [-70.714722222222207, 46.096388888888903, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSU3", "Station": "ST-HYACINTHE" },
+      "geometry": { "type": "Point", "coordinates": [-73.015, 45.606666666666698, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYJN", "Station": "ST-JEAN" },
+      "geometry": { "type": "Point", "coordinates": [-73.281111111111102, 45.294444444444402, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSG5",
+        "Station": "ST-JEAN CHRYSOSTOME"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.151666666666699, 46.685277777777799, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSN3", "Station": "ST-JEROME" },
+      "geometry": { "type": "Point", "coordinates": [-74.061944444444407, 45.780277777777798, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSZ6",
+        "Station": "ST-JEROME (HYDRO-QUEBEC) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.026944444444396, 45.771111111111097, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSM4", "Station": "STE-JULIENNE" },
+      "geometry": { "type": "Point", "coordinates": [-73.723888888888894, 45.940833333333302, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CST7",
+        "Station": "ST-LAMBERT-DE-LAUZON"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.1825, 46.560277777777799, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSJ5",
+        "Station": "ST-LOUIS-DE-FRANCE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-72.630277777777806, 46.436666666666703, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSU4",
+        "Station": "STE-LUCIE-DE-BEAUREGARD"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.0325, 46.740833333333299, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSF6",
+        "Station": "STE-MARGUERITE (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.053333333333299, 46.031111111111102, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSP5", "Station": "ST-MATHIAS" },
+      "geometry": { "type": "Point", "coordinates": [-73.241666666666703, 45.500833333333297, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSX5", "Station": "ST-MATHIAS/GRANT" },
+      "geometry": { "type": "Point", "coordinates": [-73.199444444444495, 45.471944444444397, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSB3",
+        "Station": "ST-MATHIEU-DE-BELOEIL"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.238611111111098, 45.59, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CMN3",
+        "Station": "ST-MICHEL-DE-NAPIERVILLE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.575833333333307, 45.213611111111099, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSM5",
+        "Station": "ST-MICHEL-DES-SAINTS"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.993611111111093, 46.680833333333297, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "LFVP", "Station": "ST-PIERRE" },
+      "geometry": { "type": "Point", "coordinates": [-56.1741666666667, 46.763055555555603, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSK5", "Station": "ST-RAYMOND/PAQUET" },
+      "geometry": { "type": "Point", "coordinates": [-71.785833333333301, 46.895, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSL5",
+        "Station": "ST-VICTOR-DE-BEAUCE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-70.889166666666696, 46.118333333333297, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSD3",
+        "Station": "SALABERRY DE VALLEYFIELD"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.141388888888898, 45.2083333333333, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYZG", "Station": "SALLUIT" },
+      "geometry": { "type": "Point", "coordinates": [-75.667222222222193, 62.1794444444444, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYKL", "Station": "SCHEFFERVILLE" },
+      "geometry": { "type": "Point", "coordinates": [-66.805277777777803, 54.805277777777803, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CTK2", "Station": "SENNETERRE" },
+      "geometry": { "type": "Point", "coordinates": [-77.181111111111093, 48.340555555555603, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYZV", "Station": "SEPT-ILES" },
+      "geometry": { "type": "Point", "coordinates": [-66.265555555555594, 50.223333333333301, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CTA2",
+        "Station": "SEPT-ILES (HYDRO-QUEBEC) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-66.409166666666707, 50.288055555555601, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYSC", "Station": "SHERBROOKE" },
+      "geometry": { "type": "Point", "coordinates": [-71.691388888888895, 45.438611111111101, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSG7",
+        "Station": "SHERBROOKE (CHUS)/FRANCOIS DESOURDY (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.868888888888904, 45.449722222222199, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSY3", "Station": "SOREL" },
+      "geometry": { "type": "Point", "coordinates": [-73.042222222222193, 45.9802777777778, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CST4",
+        "Station": "SOREL-TRACY/AIR NATURE INC (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-73.124444444444407, 46.036944444444401, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSN5", "Station": "STANHOPE" },
+      "geometry": { "type": "Point", "coordinates": [-71.794444444444395, 45.015555555555601, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CTQ2", "Station": "STANSTEAD/WELLER" },
+      "geometry": { "type": "Point", "coordinates": [-72.035, 45.034444444444397, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYTQ", "Station": "TASIUJAQ" },
+      "geometry": { "type": "Point", "coordinates": [-69.955833333333302, 58.6677777777778, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CTB6", "Station": "TETE-A-LA-BALEINE" },
+      "geometry": { "type": "Point", "coordinates": [-59.383611111111101, 50.674444444444397, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSM3", "Station": "THETFORD MINES" },
+      "geometry": { "type": "Point", "coordinates": [-71.257222222222197, 46.051666666666698, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYRQ", "Station": "TROIS-RIVIERES" },
+      "geometry": { "type": "Point", "coordinates": [-72.6805555555556, 46.351666666666702, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYMU", "Station": "UMIUJAQ" },
+      "geometry": { "type": "Point", "coordinates": [-76.518333333333302, 56.536111111111097, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CYOY",
+        "Station": "VALCARTIER (W/C J.H.L.(JOE) LECOMPTE) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-71.5, 46.9, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSQ3", "Station": "VALCOURT" },
+      "geometry": { "type": "Point", "coordinates": [-72.310277777777799, 45.481111111111098, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYVO", "Station": "VAL-D'OR" },
+      "geometry": { "type": "Point", "coordinates": [-77.782777777777795, 48.053333333333299, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_AU_QUEBEC",
+        "Id": "CSY5",
+        "Station": "VALLEYFIELD (TRANSPORT BRS INC) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.149166666666702, 45.263611111111103, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSR3", "Station": "VICTORIAVILLE" },
+      "geometry": { "type": "Point", "coordinates": [-71.9294444444444, 46.1125, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYKQ", "Station": "WASKAGANISH" },
+      "geometry": { "type": "Point", "coordinates": [-78.758333333333297, 51.473333333333301, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CYNC", "Station": "WEMINDJI" },
+      "geometry": { "type": "Point", "coordinates": [-78.831111111111099, 53.010555555555598, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_AU_QUEBEC", "Id": "CSU5", "Station": "WEYMONTACHIE" },
+      "geometry": { "type": "Point", "coordinates": [-73.817222222222199, 47.9369444444444, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPE2",
+        "Station": "AJAX (PICKERING GEN HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.016666666666694, 43.8333333333333, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNS4", "Station": "ALEXANDRIA" },
+      "geometry": { "type": "Point", "coordinates": [-74.616666666666703, 45.3333333333333, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNY4", "Station": "ALLISTON" },
+      "geometry": { "type": "Point", "coordinates": [-79.8333333333333, 44.183333333333302, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPJ2", "Station": "ALLISTON (Heli)" },
+      "geometry": { "type": "Point", "coordinates": [-79.799444444444404, 44.148055555555601, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPZ2",
+        "Station": "ALLISTON (STEVENSON MEM HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.874166666666696, 44.155277777777798, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CKB6",
+        "Station": "ANGLING LAKE/WAPEKEKA"
+      },
+      "geometry": { "type": "Point", "coordinates": [-89.579444444444405, 53.849166666666697, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYYW", "Station": "ARMSTRONG" },
+      "geometry": { "type": "Point", "coordinates": [-88.9097222222222, 50.290277777777803, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPE9", "Station": "ARMSTRONG (Heli)" },
+      "geometry": { "type": "Point", "coordinates": [-89.03, 50.3066666666667, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNP3",
+        "Station": "ARNPRIOR/SOUTH RENFREW MUNI"
+      },
+      "geometry": { "type": "Point", "coordinates": [-76.365833333333299, 45.413611111111102, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNR9", "Station": "ARNSTEIN" },
+      "geometry": { "type": "Point", "coordinates": [-79.927777777777806, 45.925555555555597, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CAR5",
+        "Station": "ARTHUR (ARTHUR SOUTH)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.433611111111105, 43.783055555555599, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CMZ2",
+        "Station": "ARTHUR (METZ FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.435833333333306, 43.810555555555602, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPK9",
+        "Station": "ARTHUR (PESKETT FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.485, 43.7708333333333, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPC3",
+        "Station": "ARTHUR (WALTER'S FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.45, 43.85, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CKF3",
+        "Station": "ATIKOKAN (GEN HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-91.6, 48.75, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYIB", "Station": "ATIKOKAN MUNI" },
+      "geometry": { "type": "Point", "coordinates": [-91.638611111111103, 48.773888888888898, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYAT", "Station": "ATTAWAPISKAT" },
+      "geometry": { "type": "Point", "coordinates": [-82.431944444444497, 52.9275, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CAT1", "Station": "ATWOOD/COGHLIN" },
+      "geometry": { "type": "Point", "coordinates": [-81.004444444444403, 43.683333333333302, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CAY5",
+        "Station": "AYR/SARGEANT PRIVATE AIRFIELD"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.499166666666696, 48.305833333333297, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPB9", "Station": "BALDWIN" },
+      "geometry": { "type": "Point", "coordinates": [-79.340555555555596, 44.267222222222202, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNW3", "Station": "BANCROFT" },
+      "geometry": { "type": "Point", "coordinates": [-77.880555555555503, 45.073055555555598, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPB7",
+        "Station": "BANCROFT (NORTH HASTINGS DISTRICT HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-77.878888888888895, 45.071388888888897, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYLS",
+        "Station": "BARRIE-ORILLIA (LAKE SIMCOE REGIONAL)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.5555555555556, 44.4861111111111, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CRV2",
+        "Station": "BARRIE (ROYAL VICTORIA HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.665277777777803, 44.414444444444399, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPF2", "Station": "BAR RIVER" },
+      "geometry": { "type": "Point", "coordinates": [-84.092222222222205, 46.420277777777798, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNZ4",
+        "Station": "BARRY'S BAY/MADAWASKA VALLEY AIRPARK"
+      },
+      "geometry": { "type": "Point", "coordinates": [-77.65, 45.5, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPV6",
+        "Station": "BARRY'S BAY (ST. FRANCIS MEM HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-77.694166666666703, 45.482222222222198, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CBE3",
+        "Station": "BEAMSVILLE/PANTERRA"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.474722222222198, 43.186388888888899, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPY3",
+        "Station": "BEARDMORE (HEALTH CENTRE) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-87.953055555555594, 49.608611111111102, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNE3", "Station": "BEARSKIN LAKE" },
+      "geometry": { "type": "Point", "coordinates": [-91.027222222222207, 53.965555555555603, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CBV2", "Station": "BEAVERTON" },
+      "geometry": { "type": "Point", "coordinates": [-79.100277777777805, 44.4475, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CBN7", "Station": "BEAVERTON NORTH" },
+      "geometry": { "type": "Point", "coordinates": [-79.126111111111101, 44.4594444444445, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNU4", "Station": "BELLEVILLE" },
+      "geometry": { "type": "Point", "coordinates": [-77.309444444444395, 44.192222222222199, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CBF2",
+        "Station": "BELWOOD (BAIRD FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.311944444444407, 43.808333333333302, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CEF2",
+        "Station": "BELWOOD (ELLEN FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.3691666666667, 43.8375, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CBW6",
+        "Station": "BELWOOD (WRIGHT FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.4025, 43.793888888888901, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYTL", "Station": "BIG TROUT LAKE" },
+      "geometry": { "type": "Point", "coordinates": [-89.8969444444445, 53.817777777777799, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNB2", "Station": "BOLTON (Heli)" },
+      "geometry": { "type": "Point", "coordinates": [-79.6955555555556, 43.850555555555601, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYBN", "Station": "BORDEN (Heli)" },
+      "geometry": { "type": "Point", "coordinates": [-79.9125, 44.271666666666697, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPL7",
+        "Station": "BOWMANVILLE (MEM HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-78.6805555555556, 43.908055555555599, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPL2",
+        "Station": "BRACEBRIDGE (SOUTH MUSKOKA MEM HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.316666666666706, 45.05, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPM7", "Station": "BRADFORD" },
+      "geometry": { "type": "Point", "coordinates": [-79.628888888888895, 44.136111111111099, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNC3", "Station": "BRAMPTON" },
+      "geometry": { "type": "Point", "coordinates": [-79.875, 43.760277777777802, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPC4",
+        "Station": "BRAMPTON (NATIONAL \"D\") (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.700833333333307, 43.8333333333333, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPM2",
+        "Station": "BRAMPTON (NATIONAL \"P\") (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.699722222222206, 43.8130555555556, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYFD", "Station": "BRANTFORD" },
+      "geometry": { "type": "Point", "coordinates": [-80.3425, 43.1313888888889, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNL3",
+        "Station": "BROCKVILLE-THOUSAND ISLANDS REGIONAL TACKABERRY"
+      },
+      "geometry": { "type": "Point", "coordinates": [-75.750277777777796, 44.639444444444401, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPD4",
+        "Station": "BRUSSELS (ARMSTRONG FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.233333333333306, 43.75, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CZBA",
+        "Station": "BURLINGTON EXECUTIVE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.850277777777805, 43.441666666666698, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPE4",
+        "Station": "CAMBRIDGE/REID'S FIELD"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.232222222222205, 43.442777777777799, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CCE6", "Station": "CAMDEN EAST" },
+      "geometry": { "type": "Point", "coordinates": [-76.7925, 44.3258333333333, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNX3", "Station": "CAREY LAKE" },
+      "geometry": { "type": "Point", "coordinates": [-84.033333333333303, 49.75, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNR6", "Station": "CARLETON PLACE" },
+      "geometry": { "type": "Point", "coordinates": [-76.123333333333306, 45.103888888888903, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPN7",
+        "Station": "CARLETON PLACE (DISTRICT MEM HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-76.137777777777799, 45.142222222222202, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYAC", "Station": "CAT LAKE" },
+      "geometry": { "type": "Point", "coordinates": [-91.824444444444396, 51.727222222222203, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYCE",
+        "Station": "CENTRALIA/JAMES T. FIELD MEMORIAL"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.508333333333297, 43.285555555555597, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYLD", "Station": "CHAPLEAU" },
+      "geometry": { "type": "Point", "coordinates": [-83.346944444444404, 47.820277777777797, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNZ3", "Station": "CHATHAM-KENT" },
+      "geometry": { "type": "Point", "coordinates": [-82.0825, 42.305833333333297, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPG8",
+        "Station": "CHATHAM (PUBLIC GEN HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-82.1933333333333, 42.403611111111097, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPF4",
+        "Station": "COBDEN/BRUCE McPHAIL MEM"
+      },
+      "geometry": { "type": "Point", "coordinates": [-76.8333333333333, 45.595, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNB4",
+        "Station": "COBOURG (NORTHUMBERLAND HILLS HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-78.2, 43.977222222222203, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYCN", "Station": "COCHRANE" },
+      "geometry": { "type": "Point", "coordinates": [-81.013611111111103, 49.105555555555597, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNY3", "Station": "COLLINGWOOD" },
+      "geometry": { "type": "Point", "coordinates": [-80.158333333333303, 44.449166666666699, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPP2",
+        "Station": "COLLINGWOOD (GEN AND MARINE HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.203333333333305, 44.499722222222204, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CCN4", "Station": "CONN" },
+      "geometry": { "type": "Point", "coordinates": [-80.485555555555607, 44.0325, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CCT2", "Station": "COOKSTOWN" },
+      "geometry": { "type": "Point", "coordinates": [-79.6388888888889, 44.238888888888901, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CKF8",
+        "Station": "COOKSTOWN/KIRBY FIELD"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.725, 44.132777777777797, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPS6",
+        "Station": "CORNWALL (COMMUNITY HOSP McCONNELL SITE) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.717777777777798, 45.031111111111102, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYCC",
+        "Station": "CORNWALL REGIONAL"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.567777777777806, 45.092777777777798, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CRB2", "Station": "COTTAM" },
+      "geometry": { "type": "Point", "coordinates": [-82.6527777777778, 42.14, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CRE3",
+        "Station": "CURRIES (RAND PRIVATE AIRFIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.700277777777799, 43.066388888888902, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPH2", "Station": "DEEP RIVER/ROLPH" },
+      "geometry": { "type": "Point", "coordinates": [-77.533333333333303, 46.116666666666703, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYVZ", "Station": "DEER LAKE" },
+      "geometry": { "type": "Point", "coordinates": [-94.061388888888899, 52.655833333333298, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CKF9", "Station": "DE LESSEPS LAKE" },
+      "geometry": { "type": "Point", "coordinates": [-90.683611111111105, 50.7175, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CKV3",
+        "Station": "DRYDEN BEST WESTERN (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-92.8333333333333, 49.783333333333303, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYHD", "Station": "DRYDEN REGIONAL" },
+      "geometry": { "type": "Point", "coordinates": [-92.7441666666667, 49.831666666666699, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CTF4",
+        "Station": "DUNDALK (TRIPP FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.308333333333294, 44.174444444444397, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CDG3", "Station": "DUNGANNON" },
+      "geometry": { "type": "Point", "coordinates": [-81.606666666666698, 43.836388888888898, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CDU9", "Station": "DUNNVILLE" },
+      "geometry": { "type": "Point", "coordinates": [-79.595833333333303, 42.872222222222199, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPA9",
+        "Station": "DUNNVILLE (HALDIMAND WAR MEM HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.628055555555505, 42.913888888888899, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPD3",
+        "Station": "DURHAM (MEM HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.8333333333333, 44.183333333333302, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNF8", "Station": "DWIGHT" },
+      "geometry": { "type": "Point", "coordinates": [-78.975, 45.313333333333297, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CKX3", "Station": "EAGLE RIVER" },
+      "geometry": { "type": "Point", "coordinates": [-93.133333333333297, 49.75, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYXR",
+        "Station": "EARLTON (TIMISKAMING REGIONAL)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.848888888888894, 47.695, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CEL3",
+        "Station": "EAST LINTON (KERR FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.944166666666703, 44.661111111111097, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNV8", "Station": "EDENVALE" },
+      "geometry": { "type": "Point", "coordinates": [-79.9652777777778, 44.438888888888897, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPE3", "Station": "ELK LAKE" },
+      "geometry": { "type": "Point", "coordinates": [-80.315833333333302, 47.7286111111111, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYEL", "Station": "ELLIOT LAKE MUNI" },
+      "geometry": { "type": "Point", "coordinates": [-82.561111111111103, 46.351666666666702, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNT6", "Station": "ELMIRA" },
+      "geometry": { "type": "Point", "coordinates": [-80.603055555555599, 43.584722222222197, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPG4", "Station": "ELMIRA (EAST)" },
+      "geometry": { "type": "Point", "coordinates": [-80.512222222222206, 43.591944444444401, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNA4", "Station": "EMSDALE" },
+      "geometry": { "type": "Point", "coordinates": [-79.35, 45.55, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CDF3",
+        "Station": "ENGLEHART (DAVE'S FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.811111111111103, 47.809722222222199, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNS3",
+        "Station": "ENGLEHART (DISTRICT HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.880277777777806, 47.823055555555598, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNE9", "Station": "ESSEX" },
+      "geometry": { "type": "Point", "coordinates": [-82.879444444444403, 42.095833333333303, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CEB8",
+        "Station": "ESSEX/BILLING AIRSTRIP"
+      },
+      "geometry": { "type": "Point", "coordinates": [-82.782222222222202, 42.186666666666703, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPD2", "Station": "ETHEL" },
+      "geometry": { "type": "Point", "coordinates": [-81.176666666666705, 43.745, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPB2",
+        "Station": "FERGUS (GROVES MEM COMMUNITY HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.375555555555593, 43.7216666666667, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPY9",
+        "Station": "FEGUS (HOLYOAKE AIRFIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.283055555555507, 43.7286111111111, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPG7",
+        "Station": "FERGUS (JUERGENSEN FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.447222222222194, 43.735, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPR9",
+        "Station": "FERGUS (ROYLAND FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.385277777777802, 43.7419444444444, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CVF2",
+        "Station": "FERGUS (VODAREK FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.289166666666702, 43.723055555555597, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPH9", "Station": "FORDWICH" },
+      "geometry": { "type": "Point", "coordinates": [-80.995277777777801, 43.888055555555603, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYFA", "Station": "FORT ALBANY" },
+      "geometry": { "type": "Point", "coordinates": [-81.695833333333297, 52.203611111111101, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNJ3", "Station": "FORT ERIE" },
+      "geometry": { "type": "Point", "coordinates": [-78.955555555555605, 42.9166666666667, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPG3",
+        "Station": "FORT ERIE (EUROCOPTER CANADA) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-78.955833333333302, 42.921111111111102, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYAG",
+        "Station": "FORT FRANCES MUNI"
+      },
+      "geometry": { "type": "Point", "coordinates": [-93.440555555555605, 48.654444444444401, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYFH", "Station": "FORT HOPE" },
+      "geometry": { "type": "Point", "coordinates": [-87.907777777777795, 51.5619444444444, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYER", "Station": "FORT SEVERN" },
+      "geometry": { "type": "Point", "coordinates": [-87.676111111111098, 56.018888888888902, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CFR5",
+        "Station": "FRENCH RIVER/ALBAN"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.6041666666667, 46.093333333333298, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNN8", "Station": "GANANOQUE" },
+      "geometry": { "type": "Point", "coordinates": [-76.2441666666667, 44.401944444444403, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNZ6",
+        "Station": "GEORGETOWN (GEORGETOWN & DISTRICT HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.934444444444495, 43.644444444444403, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPJ4",
+        "Station": "GERALDTON (DISTRICT HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-86.956944444444403, 49.723888888888901, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYGQ",
+        "Station": "GERALDTON (GREENSTONE REGIONAL)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-86.939444444444405, 49.7783333333333, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYGD", "Station": "GODERICH" },
+      "geometry": { "type": "Point", "coordinates": [-81.710555555555601, 43.766944444444398, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYZE",
+        "Station": "GORE BAY-MANITOULIN"
+      },
+      "geometry": { "type": "Point", "coordinates": [-82.5683333333333, 45.881666666666703, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPL4", "Station": "GRAND BEND" },
+      "geometry": { "type": "Point", "coordinates": [-81.714166666666699, 43.286944444444401, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CGV5",
+        "Station": "GRAND VALLEY (BLACK FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.288611111111095, 43.86, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CGV2",
+        "Station": "GRAND VALLEY/LUTHER FIELD"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.385277777777802, 43.976388888888899, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CGV4",
+        "Station": "GRAND VALLEY (MADILL FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.265833333333305, 43.861388888888897, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CGV6",
+        "Station": "GRAND VALLEY (MARTIN FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.286666666666704, 43.874722222222204, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CGV3",
+        "Station": "GRAND VALLEY NORTH"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.3541666666667, 43.9625, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNP8", "Station": "GREENBANK" },
+      "geometry": { "type": "Point", "coordinates": [-79.016666666666694, 44.133333333333297, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNZ8", "Station": "GRIMSBY AIR PARK" },
+      "geometry": { "type": "Point", "coordinates": [-79.6, 43.158888888888903, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNC4", "Station": "GUELPH" },
+      "geometry": { "type": "Point", "coordinates": [-80.196111111111094, 43.563888888888897, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPA6",
+        "Station": "HAGERSVILLE (WEST HALDIMAND GEN HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.043333333333294, 42.9583333333333, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CND4",
+        "Station": "HALIBURTON/STANHOPE MUNI"
+      },
+      "geometry": { "type": "Point", "coordinates": [-78.64, 45.110833333333296, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNF2",
+        "Station": "HALIBURTON (HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-78.530277777777798, 45.038055555555601, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYHM", "Station": "HAMILTON" },
+      "geometry": { "type": "Point", "coordinates": [-79.935, 43.1736111111111, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPJ3",
+        "Station": "HAMILTON (CHEDOKE-McMASTER HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.933333333333294, 43.266666666666701, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPK3",
+        "Station": "HAMILTON (GEN HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.854722222222193, 43.261944444444403, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNZ7",
+        "Station": "HANOVER (DISTRICT HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.029166666666697, 44.140833333333298, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPN4",
+        "Station": "HANOVER/SAUGEEN MUNI"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.062777777777796, 44.158333333333303, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CGL2", "Station": "HARROW" },
+      "geometry": { "type": "Point", "coordinates": [-82.840833333333293, 42.059444444444402, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNV4", "Station": "HAWKESBURY" },
+      "geometry": { "type": "Point", "coordinates": [-74.65, 45.616666666666703, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPG5",
+        "Station": "HAWKESBURY (EAST)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.548888888888897, 45.5827777777778, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPD8",
+        "Station": "HAWKESBURY (WINDOVER FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.809722222222206, 45.564444444444398, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYHF",
+        "Station": "HEARST (REN� FONTAINE) MUNI"
+      },
+      "geometry": { "type": "Point", "coordinates": [-83.686944444444507, 49.713888888888903, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNA2", "Station": "HIGHGATE" },
+      "geometry": { "type": "Point", "coordinates": [-81.803055555555602, 42.5544444444444, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CHS2", "Station": "HIGHGATE (SOUTH)" },
+      "geometry": { "type": "Point", "coordinates": [-81.821944444444398, 42.473611111111097, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CLA4",
+        "Station": "HOLLAND LANDING AIRPARK"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.495, 44.089444444444403, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYHN", "Station": "HORNEPAYNE MUNI" },
+      "geometry": { "type": "Point", "coordinates": [-84.758888888888904, 49.193055555555603, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CDH1",
+        "Station": "HUNTSVILLE/DEERHURST RESORT"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.151388888888903, 45.3541666666667, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPC9",
+        "Station": "HUNTSVILLE (MEM DISTRICT HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.206388888888895, 45.3402777777778, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CJN3", "Station": "IGNACE (Heli)" },
+      "geometry": { "type": "Point", "coordinates": [-91.634722222222194, 49.406388888888898, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CZUC", "Station": "IGNACE MUNI" },
+      "geometry": { "type": "Point", "coordinates": [-91.717777777777798, 49.429722222222203, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNP7", "Station": "IROQUOIS" },
+      "geometry": { "type": "Point", "coordinates": [-75.316666666666706, 44.8333333333333, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNE4", "Station": "IROQUOIS FALLS" },
+      "geometry": { "type": "Point", "coordinates": [-80.793333333333294, 48.741666666666703, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CKG8", "Station": "KAKABEKA FALLS" },
+      "geometry": { "type": "Point", "coordinates": [-89.601944444444399, 48.418333333333301, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYYU", "Station": "KAPUSKASING" },
+      "geometry": { "type": "Point", "coordinates": [-82.468611111111102, 49.411666666666697, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CKP7",
+        "Station": "KAPUSKASING (SENSENBRENNER HOSPITAL) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-82.426944444444402, 49.5133333333333, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPL3",
+        "Station": "KARS/RIDEAU VALLEY AIR PARK"
+      },
+      "geometry": { "type": "Point", "coordinates": [-75.633333333333297, 45.1, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYAQ", "Station": "KASABONIKA" },
+      "geometry": { "type": "Point", "coordinates": [-88.643055555555605, 53.524722222222202, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CZKE", "Station": "KASHECHEWAN" },
+      "geometry": { "type": "Point", "coordinates": [-81.677777777777806, 52.2825, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPS2",
+        "Station": "KEENE/ELMHIRST'S RESORT"
+      },
+      "geometry": { "type": "Point", "coordinates": [-78.116666666666703, 44.25, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPV8", "Station": "KEEWAYWIN" },
+      "geometry": { "type": "Point", "coordinates": [-92.836388888888905, 52.991111111111103, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYQK", "Station": "KENORA" },
+      "geometry": { "type": "Point", "coordinates": [-94.363055555555505, 49.788333333333298, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CJG6",
+        "Station": "KENORA (LAKE OF THE WOODS DISTRICT HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-94.498888888888899, 49.768611111111099, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPT2", "Station": "KILLARNEY" },
+      "geometry": { "type": "Point", "coordinates": [-81.494722222222194, 45.9775, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNS7", "Station": "KINCARDINE" },
+      "geometry": { "type": "Point", "coordinates": [-81.605555555555597, 44.2013888888889, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CKS9",
+        "Station": "KINCARDINE/SHEPHERD'S LANDING"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.698333333333295, 44.1175, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPU2",
+        "Station": "KINCARDINE (SOUTH BRUCE GREY HEALTH CENTRE HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.608333333333306, 44.189444444444398, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNM5", "Station": "KINGFISHER LAKE" },
+      "geometry": { "type": "Point", "coordinates": [-89.8552777777778, 53.0125, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYGK", "Station": "KINGSTON" },
+      "geometry": { "type": "Point", "coordinates": [-76.596666666666707, 44.225833333333298, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPJ7",
+        "Station": "KINGSTON (GENERAL HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-76.492777777777803, 44.2222222222222, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYKX", "Station": "KIRKLAND LAKE" },
+      "geometry": { "type": "Point", "coordinates": [-79.981388888888901, 48.210277777777797, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYKF",
+        "Station": "KITCHENER/WATERLOO"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.378611111111098, 43.460833333333298, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNK9",
+        "Station": "KITCHENER-WATERLOO (GRAND RIVER HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.503611111111098, 43.452777777777797, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CLA6",
+        "Station": "LANCASTER AIRPARK"
+      },
+      "geometry": { "type": "Point", "coordinates": [-74.3625, 45.2, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYLH", "Station": "LANSDOWNE HOUSE" },
+      "geometry": { "type": "Point", "coordinates": [-87.934166666666698, 52.1955555555556, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CLW3",
+        "Station": "LAUREL/WHITTINGTON"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.177222222222198, 43.9791666666667, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CLM2", "Station": "LEAMINGTON" },
+      "geometry": { "type": "Point", "coordinates": [-82.525, 42.024722222222202, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPQ4", "Station": "LEFROY" },
+      "geometry": { "type": "Point", "coordinates": [-79.55, 44.3, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNF4", "Station": "LINDSAY" },
+      "geometry": { "type": "Point", "coordinates": [-78.783888888888896, 44.364722222222198, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPN5", "Station": "LISTOWEL" },
+      "geometry": { "type": "Point", "coordinates": [-80.991388888888906, 43.742777777777803, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNT4",
+        "Station": "LITTLE CURRENT (MANITOULIN HEALTH CENTRE) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.926388888888894, 45.978055555555599, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYXU", "Station": "LONDON" },
+      "geometry": { "type": "Point", "coordinates": [-81.151111111111106, 43.033055555555599, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CLC2",
+        "Station": "LONDON/CHAPESKIE FIELD"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.125555555555593, 43.0683333333333, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPR4",
+        "Station": "LONDON (UNIVERSITY HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.274444444444399, 43.013055555555603, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPW2",
+        "Station": "LONDON (VICTORIA HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.225555555555601, 42.959166666666697, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPS4", "Station": "LUCAN" },
+      "geometry": { "type": "Point", "coordinates": [-81.4125, 43.163333333333298, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CLK3", "Station": "LUCKNOW AIRPARK" },
+      "geometry": { "type": "Point", "coordinates": [-81.493333333333297, 43.967777777777798, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYMG", "Station": "MANITOUWADGE" },
+      "geometry": { "type": "Point", "coordinates": [-85.860555555555607, 49.0838888888889, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPU4",
+        "Station": "MANITOUWADGE (GEN HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-85.822222222222194, 49.122222222222199, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYEM",
+        "Station": "MANITOWANING/MANITOULIN EAST MUNI"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.858055555555595, 45.842777777777798, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPV4", "Station": "MANSFIELD" },
+      "geometry": { "type": "Point", "coordinates": [-80.0197222222222, 44.15, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYSP", "Station": "MARATHON" },
+      "geometry": { "type": "Point", "coordinates": [-86.344444444444406, 48.755277777777799, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPX2",
+        "Station": "MARATHON (WILSON MEM HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-86.374722222222204, 48.718611111111102, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPD9",
+        "Station": "MARKDALE (CENTRE GREY GEN HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.658055555555606, 44.315, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CMW3", "Station": "MATAWATCHAN" },
+      "geometry": { "type": "Point", "coordinates": [-77.096111111111099, 45.163888888888899, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CMA2", "Station": "MATTAWA" },
+      "geometry": { "type": "Point", "coordinates": [-78.747777777777799, 46.299722222222201, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPA7",
+        "Station": "MEAFORD (GEN HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.598888888888894, 44.606944444444402, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNM2", "Station": "MELBOURNE" },
+      "geometry": { "type": "Point", "coordinates": [-81.5486111111111, 42.824166666666699, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYEE", "Station": "MIDLAND/HURONIA" },
+      "geometry": { "type": "Point", "coordinates": [-79.928333333333299, 44.683333333333302, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPW6",
+        "Station": "MIDLAND (HURONIA DISTRICT HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.914444444444499, 44.741666666666703, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CMH2", "Station": "MILTON (AFI)" },
+      "geometry": { "type": "Point", "coordinates": [-79.9027777777778, 43.532222222222202, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPY2",
+        "Station": "MILTON (DISTRICT HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.869722222222194, 43.496111111111098, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPS5", "Station": "MIMINISKA" },
+      "geometry": { "type": "Point", "coordinates": [-88.5822222222222, 51.604444444444397, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNW4",
+        "Station": "MINDEMOYA (HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-82.1666666666667, 45.738888888888901, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CMI2",
+        "Station": "MINDEN (HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-78.729444444444397, 44.924722222222201, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPN3",
+        "Station": "MOOSE FACTORY (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.618888888888904, 51.2494444444444, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYMO", "Station": "MOOSONEE" },
+      "geometry": { "type": "Point", "coordinates": [-80.608333333333306, 51.291944444444397, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNS8", "Station": "MORRISBURG" },
+      "geometry": { "type": "Point", "coordinates": [-75.0833333333333, 44.95, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPA2",
+        "Station": "MOUNT FOREST (LOUISE MARSHALL HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.7375, 43.974166666666697, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYQA", "Station": "MUSKOKA" },
+      "geometry": { "type": "Point", "coordinates": [-79.303888888888906, 44.975, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CZMD", "Station": "MUSKRAT DAM" },
+      "geometry": { "type": "Point", "coordinates": [-91.762777777777799, 53.441388888888902, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYQN", "Station": "NAKINA" },
+      "geometry": { "type": "Point", "coordinates": [-86.696388888888904, 50.182777777777801, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CJA5", "Station": "NESTOR FALLS" },
+      "geometry": { "type": "Point", "coordinates": [-93.916944444444496, 49.140277777777797, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNV3",
+        "Station": "NEW LISKEARD (TEMISKAMING HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.691666666666706, 47.494444444444397, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPQ3",
+        "Station": "NIAGARA FALLS (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.066666666666706, 43.116666666666703, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNF9",
+        "Station": "NIAGARA FALLS/NIAGARA SOUTH"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.063333333333304, 42.9994444444444, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CKE9",
+        "Station": "NIPIGON (DISTRICT MEM HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-88.278888888888901, 49.016111111111101, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNX8", "Station": "NIXON" },
+      "geometry": { "type": "Point", "coordinates": [-80.395277777777807, 42.8475, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYYB", "Station": "NORTH BAY" },
+      "geometry": { "type": "Point", "coordinates": [-79.424166666666693, 46.363888888888901, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNB3",
+        "Station": "NORTH BAY (NORTH BAY REGIONAL HEALTH CENTRE) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.495833333333294, 46.334722222222197, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CKQ3",
+        "Station": "NORTH SPIRIT LAKE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-92.971111111111099, 52.49, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPE8",
+        "Station": "OAKVILLE (TRAFALGAR MEM HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.671666666666695, 43.474166666666697, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNT3", "Station": "OGOKI POST" },
+      "geometry": { "type": "Point", "coordinates": [-85.901111111111106, 51.658611111111099, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CKM8", "Station": "OPAPIMISKAN LAKE" },
+      "geometry": { "type": "Point", "coordinates": [-90.376944444444405, 52.608611111111102, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "COB4",
+        "Station": "ORANGEVILLE/BRUNDLE FIELD"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.180833333333297, 43.875, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "COL2",
+        "Station": "ORANGEVILLE/LAUREL"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.205833333333302, 43.916944444444397, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPV2",
+        "Station": "ORANGEVILLE/MURRAY WESLEY KOT FIELD"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.155, 43.958611111111097, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNJ4", "Station": "ORILLIA" },
+      "geometry": { "type": "Point", "coordinates": [-79.316666666666706, 44.683333333333302, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "COP2",
+        "Station": "ORILLIA (ONTARIO PROVINCIAL POLICE) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.428888888888906, 44.584444444444401, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPS7",
+        "Station": "ORTON/SMITH FIELD"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.228055555555599, 43.775, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYOO", "Station": "OSHAWA" },
+      "geometry": { "type": "Point", "coordinates": [-78.895, 43.922777777777803, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYRP", "Station": "OTTAWA/CARP" },
+      "geometry": { "type": "Point", "coordinates": [-76.022222222222197, 45.3225, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CSF7",
+        "Station": "OTTAWA/CASSELMAN (SHEA FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-75.171388888888899, 45.299722222222201, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPK7",
+        "Station": "OTTAWA (CHILDREN'S HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-75.650277777777802, 45.401111111111099, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPP7",
+        "Station": "OTTAWA (CIVIC HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-75.720555555555606, 45.391666666666701, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYDH",
+        "Station": "OTTAWA/DWYER HILL (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-75.948333333333295, 45.130555555555603, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPR2", "Station": "OTTAWA/EMBRUN" },
+      "geometry": { "type": "Point", "coordinates": [-75.2986111111111, 45.241111111111103, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYOW",
+        "Station": "OTTAWA/MACDONALD-CARTIER INTL"
+      },
+      "geometry": { "type": "Point", "coordinates": [-75.667222222222193, 45.3225, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CHF2",
+        "Station": "OTTAWA/MANOTICK (HOPE FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-75.708611111111097, 45.190555555555598, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYRO",
+        "Station": "OTTAWA/ROCKCLIFFE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-75.646111111111097, 45.460277777777797, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYOS",
+        "Station": "OWEN SOUND/BILLY BISHOP REGIONAL"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.838333333333296, 44.590555555555603, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CCK5",
+        "Station": "OWEN SOUND (COOK FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.745555555555597, 44.6452777777778, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNK6",
+        "Station": "OWEN SOUND (GREY BRUCE HEALTH SERVICES) (HELI)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.913333333333298, 44.568055555555603, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPR3", "Station": "PALMERSTON" },
+      "geometry": { "type": "Point", "coordinates": [-80.780277777777798, 43.8536111111111, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPA3",
+        "Station": "PALMERSTON (DISTRICT HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.841944444444394, 43.838333333333303, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNK4",
+        "Station": "PARRY SOUND AREA MUNI"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.829722222222202, 45.2575, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CRS2",
+        "Station": "PARRY SOUND MEDICAL (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.016666666666694, 45.341666666666697, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYPO", "Station": "PEAWANUCK" },
+      "geometry": { "type": "Point", "coordinates": [-85.4433333333333, 54.988055555555597, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYPT", "Station": "PELEE ISLAND" },
+      "geometry": { "type": "Point", "coordinates": [-82.678055555555602, 41.7775, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYTA", "Station": "PEMBROKE" },
+      "geometry": { "type": "Point", "coordinates": [-77.251666666666694, 45.864444444444402, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNG5",
+        "Station": "PEMBROKE (REGIONAL HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-77.107777777777798, 45.815277777777801, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNF3", "Station": "PENDLETON" },
+      "geometry": { "type": "Point", "coordinates": [-75.096111111111099, 45.4861111111111, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNC9",
+        "Station": "PERTH (GREAT WAR MEM HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-76.253611111111098, 44.906944444444399, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYWA", "Station": "PETAWAWA" },
+      "geometry": { "type": "Point", "coordinates": [-77.319166666666703, 45.952222222222197, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYPQ", "Station": "PETERBOROUGH" },
+      "geometry": { "type": "Point", "coordinates": [-78.363333333333301, 44.230555555555597, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNU3",
+        "Station": "PETERBOROUGH (REG HEALTH CENTRE) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-78.345833333333303, 44.300555555555597, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYPL", "Station": "PICKLE LAKE" },
+      "geometry": { "type": "Point", "coordinates": [-90.214166666666699, 51.446388888888897, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNT7", "Station": "PICTON" },
+      "geometry": { "type": "Point", "coordinates": [-77.139166666666696, 43.989166666666698, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYPM", "Station": "PIKANGIKUM" },
+      "geometry": { "type": "Point", "coordinates": [-93.973333333333301, 51.819722222222197, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CLB2",
+        "Station": "PLATTSVILLE (LUBITZ FLYING FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.5486111111111, 43.305833333333297, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNA9", "Station": "PLEVNA/TOMVALE" },
+      "geometry": { "type": "Point", "coordinates": [-76.935833333333306, 44.9161111111111, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPV7", "Station": "POPLAR HILL" },
+      "geometry": { "type": "Point", "coordinates": [-94.255555555555603, 52.113333333333301, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPE5", "Station": "PORT COLBORNE" },
+      "geometry": { "type": "Point", "coordinates": [-79.352777777777803, 42.8775, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNL4", "Station": "PORT ELGIN" },
+      "geometry": { "type": "Point", "coordinates": [-81.414444444444499, 44.415277777777803, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPG6",
+        "Station": "PORT ELGIN (PRYDE FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.379722222222199, 44.4588888888889, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPH3",
+        "Station": "PORT HOPE (PETER'S FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-78.426944444444402, 44.024722222222202, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPX6",
+        "Station": "PORT PERRY (COMMUNITY MEM HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-78.954722222222202, 44.1052777777778, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYRL", "Station": "RED LAKE" },
+      "geometry": { "type": "Point", "coordinates": [-93.793055555555597, 51.067222222222199, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CRL3",
+        "Station": "RED LAKE (MARGARET COCHENOUR MEM HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-93.821944444444398, 51.013611111111103, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPG9",
+        "Station": "RENFREW (VICTORIA HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-76.696111111111094, 45.4825, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPT3", "Station": "ROCKTON" },
+      "geometry": { "type": "Point", "coordinates": [-80.176388888888894, 43.322222222222202, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPU3",
+        "Station": "RODNEY (NEW GLASGOW)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.606944444444395, 42.531388888888898, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CZRJ",
+        "Station": "ROUND LAKE (WEAGAMOW LAKE)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-91.3125, 52.943611111111103, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CZPB", "Station": "SACHIGO LAKE" },
+      "geometry": { "type": "Point", "coordinates": [-92.196388888888904, 53.891111111111101, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYSN",
+        "Station": "ST. CATHARINES/NIAGARA DISTRICT"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.171666666666695, 43.191666666666698, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPV3",
+        "Station": "ST. JOSEPH ISLAND"
+      },
+      "geometry": { "type": "Point", "coordinates": [-83.95, 46.283333333333303, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYQS", "Station": "ST. THOMAS MUNI" },
+      "geometry": { "type": "Point", "coordinates": [-81.109722222222203, 42.77, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CZSJ", "Station": "SANDY LAKE" },
+      "geometry": { "type": "Point", "coordinates": [-93.344444444444406, 53.064166666666701, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYZR",
+        "Station": "SARNIA (CHRIS HADFIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-82.309444444444395, 42.999722222222204, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYAM", "Station": "SAULT STE. MARIE" },
+      "geometry": { "type": "Point", "coordinates": [-84.509722222222194, 46.485, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNR3",
+        "Station": "SAULT STE. MARIE (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-84.323333333333295, 46.504444444444403, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CSM9",
+        "Station": "SAULT STE. MARIE (SAULT AREA HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-84.3125, 46.5475, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CSV8",
+        "Station": "SCHOMBERG (SLOAN VALLEY VIEW FARM AIRFIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.727222222222196, 43.9861111111111, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CTK7",
+        "Station": "SELKIRK/KINDY AIRSTRIP"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.879166666666706, 42.851111111111102, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CSX7", "Station": "SEXSMITH/EXETER" },
+      "geometry": { "type": "Point", "coordinates": [-81.504166666666706, 43.377222222222201, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNN3",
+        "Station": "SHELBURNE/FISHER FIELD"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.206111111111099, 44.0283333333333, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPA4",
+        "Station": "SIMCOE (DENNISON FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.265833333333305, 42.819166666666703, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPA8",
+        "Station": "SIMCOE (NORFOLK GEN HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.319722222222197, 42.8466666666667, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYXL", "Station": "SIOUX LOOKOUT" },
+      "geometry": { "type": "Point", "coordinates": [-91.905277777777798, 50.113888888888901, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CKF7",
+        "Station": "SIOUX LOOKOUT (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-91.9166666666667, 50.066666666666698, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CKM2", "Station": "SIOUX NARROWS" },
+      "geometry": { "type": "Point", "coordinates": [-93.995277777777801, 49.39, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CKD9", "Station": "SLATE FALLS" },
+      "geometry": { "type": "Point", "coordinates": [-91.665555555555599, 51.13, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNS9",
+        "Station": "SMITHS FALLS (COMMUNITY HOSP) (HELI)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-76.0277777777778, 44.907222222222202, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYSH",
+        "Station": "SMITHS FALLS-MONTAGUE (RUSS BEACH)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-75.940277777777794, 44.945833333333297, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPF7", "Station": "SOUTHAMPTON" },
+      "geometry": { "type": "Point", "coordinates": [-81.335277777777804, 44.493888888888897, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPE6",
+        "Station": "SOUTH RIVER/SUNDRIDGE"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.3333333333333, 45.816666666666698, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNA3",
+        "Station": "SPRINGWATER (BARRIE AIRPARK)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.731666666666698, 44.406388888888898, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CLV2",
+        "Station": "STAYNER (CLEARVIEW FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.147777777777804, 44.404444444444401, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPJ5", "Station": "STIRLING" },
+      "geometry": { "type": "Point", "coordinates": [-77.561666666666696, 44.241388888888899, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPF6", "Station": "STONEY CREEK" },
+      "geometry": { "type": "Point", "coordinates": [-79.7, 43.1666666666667, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CRML",
+        "Station": "STONEY POINT (LE CUNFF)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-82.535, 42.295555555555602, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CRJ2",
+        "Station": "STONEY POINT (TREPANIER)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-82.598333333333301, 42.288888888888899, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNS6", "Station": "STRAFFORDVILLE" },
+      "geometry": { "type": "Point", "coordinates": [-80.816666666666706, 42.738333333333301, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNM4", "Station": "STRATFORD MUNI" },
+      "geometry": { "type": "Point", "coordinates": [-80.934444444444495, 43.415555555555599, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPK2",
+        "Station": "STRATHROY (BLUE YONDER)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.591666666666697, 42.9658333333333, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNM3",
+        "Station": "STURGEON FALLS (WEST NIPISSING GEN HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.915555555555599, 46.373055555555602, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYSB", "Station": "SUDBURY" },
+      "geometry": { "type": "Point", "coordinates": [-80.797777777777796, 46.6255555555556, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CSC9", "Station": "SUDBURY/CONISTON" },
+      "geometry": { "type": "Point", "coordinates": [-80.833888888888893, 46.482222222222198, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CSL8",
+        "Station": "SUDBURY/LAURENTIAN (HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.996111111111105, 46.468055555555601, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CJV7", "Station": "SUMMER BEAVER" },
+      "geometry": { "type": "Point", "coordinates": [-88.541944444444397, 52.708611111111097, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CDF2",
+        "Station": "TEESWATER (DENT FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.293611111111105, 43.994444444444397, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPC6",
+        "Station": "TEESWATER (THOMPSON FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.271944444444401, 43.948333333333302, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CHD4",
+        "Station": "THAMESFORD (HARYDALE FARMS)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.019166666666706, 43.108333333333299, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPL5", "Station": "THESSALON MUNI" },
+      "geometry": { "type": "Point", "coordinates": [-83.533333333333303, 46.316666666666698, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYQT", "Station": "THUNDER BAY" },
+      "geometry": { "type": "Point", "coordinates": [-89.321666666666701, 48.371944444444402, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CED8",
+        "Station": "THUNDER BAY/ELDORADO"
+      },
+      "geometry": { "type": "Point", "coordinates": [-88.816666666666706, 48.572222222222202, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CTB2",
+        "Station": "THUNDER BAY (HEALTH SCIENCE CENTRE) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-89.269166666666706, 48.423055555555599, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNQ4", "Station": "TILLSONBURG" },
+      "geometry": { "type": "Point", "coordinates": [-80.746944444444495, 42.9275, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYTS",
+        "Station": "TIMMINS/VICTOR M. POWER"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.376666666666694, 48.569722222222197, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CTM6",
+        "Station": "TIMMINS (TIMMINS & DISTRICT HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.313611111111101, 48.486944444444397, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNR4", "Station": "TOBERMORY" },
+      "geometry": { "type": "Point", "coordinates": [-81.628611111111098, 45.2216666666667, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYTZ",
+        "Station": "TORONTO/BILLY BISHOP TORONTO CITY AIRPORT"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.396111111111097, 43.6275, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYKZ",
+        "Station": "TORONTO/BUTTONVILLE MUNICIPAL"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.368611111111093, 43.860833333333296, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPL8",
+        "Station": "TORONTO/CARDINAL COURIERS (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.664722222222196, 43.6313888888889, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYZD",
+        "Station": "TORONTO/DOWNSVIEW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.465555555555596, 43.742777777777803, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNW8",
+        "Station": "TORONTO (HOSP FOR SICK CHILDREN) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.3875, 43.656666666666702, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYYZ",
+        "Station": "TORONTO/LESTER B. PEARSON INTL"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.630555555555503, 43.676666666666698, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNU8", "Station": "TORONTO/MARKHAM" },
+      "geometry": { "type": "Point", "coordinates": [-79.262222222222206, 43.935833333333299, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPH7",
+        "Station": "TORONTO/MARKHAM STOUFFVILLE (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.230555555555597, 43.885, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPK6",
+        "Station": "TORONTO (MISSISSAUGA CREDIT VALLEY HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.7025, 43.561388888888899, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CYOO",
+        "Station": "TORONTO/OSHAWA MUNI"
+      },
+      "geometry": { "type": "Point", "coordinates": [-78.896666666666704, 43.922777777777803, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CTM4",
+        "Station": "TORONTO (ST. MICHAEL'S HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.378333333333302, 43.654166666666697, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNY8",
+        "Station": "TORONTO (SUNNYBROOK MEDICAL CENTRE) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.370555555555597, 43.7225, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPA5",
+        "Station": "TORONTO/TARTEN (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.658055555555606, 43.651944444444403, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPY5",
+        "Station": "TORONTO/WILSON'S (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.563611111111101, 43.617777777777803, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CTR3", "Station": "TOTTENHAM/RONAN" },
+      "geometry": { "type": "Point", "coordinates": [-79.846388888888896, 44.0422222222222, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPM5", "Station": "TOTTENHAM/VOLK" },
+      "geometry": { "type": "Point", "coordinates": [-79.780555555555594, 43.9936111111111, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYTR", "Station": "TRENTON" },
+      "geometry": { "type": "Point", "coordinates": [-77.528055555555596, 44.118888888888897, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPZ3",
+        "Station": "TRENTON/MOUNTAIN VIEW"
+      },
+      "geometry": { "type": "Point", "coordinates": [-77.338055555555599, 44.0694444444445, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPU6",
+        "Station": "TYENDINAGA (MOHAWK)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-77.107777777777798, 44.184722222222199, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CKL8", "Station": "UPSALA (Heli)" },
+      "geometry": { "type": "Point", "coordinates": [-90.469166666666695, 49.050277777777801, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNA5",
+        "Station": "UXBRIDGE (COTTAGE HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.128333333333302, 44.103055555555599, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CKQ7", "Station": "VERMILION BAY" },
+      "geometry": { "type": "Point", "coordinates": [-93.436388888888899, 49.879722222222199, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CVM2", "Station": "VICTOR MINE" },
+      "geometry": { "type": "Point", "coordinates": [-83.928611111111096, 52.8327777777778, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNG6",
+        "Station": "WALKERTON (COUNTY OF BRUCE GEN HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.152222222222207, 44.121111111111098, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CWF2",
+        "Station": "WALTER'S FALLS (PIPER WAY)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-80.620833333333294, 44.464166666666699, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYXZ", "Station": "WAWA" },
+      "geometry": { "type": "Point", "coordinates": [-84.786388888888894, 47.966944444444401, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYWP", "Station": "WEBEQUIE" },
+      "geometry": { "type": "Point", "coordinates": [-87.375277777777796, 52.9594444444445, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPB3",
+        "Station": "WELLAND (COUNTY GEN HOSP) (Heli)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.248888888888899, 42.977222222222203, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNQ3",
+        "Station": "WELLAND/NIAGARA CENTRAL"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.324722222222206, 42.98, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CRL2",
+        "Station": "WESTPORT/RIDEAU LAKES"
+      },
+      "geometry": { "type": "Point", "coordinates": [-76.396666666666704, 44.6666666666667, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYVV", "Station": "WIARTON" },
+      "geometry": { "type": "Point", "coordinates": [-81.107222222222205, 44.745833333333302, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CNA8", "Station": "WINCHESTER" },
+      "geometry": { "type": "Point", "coordinates": [-75.303333333333299, 45.045555555555602, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CYQG", "Station": "WINDSOR" },
+      "geometry": { "type": "Point", "coordinates": [-82.955555555555605, 42.275555555555599, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CPR7",
+        "Station": "WINGHAM/RICHARD W. LeVAN"
+      },
+      "geometry": { "type": "Point", "coordinates": [-81.2986111111111, 43.8675, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPR5", "Station": "WOODSTOCK" },
+      "geometry": { "type": "Point", "coordinates": [-80.820833333333297, 43.109722222222203, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CKL3", "Station": "WUNNUMIN LAKE" },
+      "geometry": { "type": "Point", "coordinates": [-89.289166666666702, 52.893888888888902, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Layer": "AEROPORT_EN_ONTARIO",
+        "Id": "CNL8",
+        "Station": "WYEVALE (BOKER FIELD)"
+      },
+      "geometry": { "type": "Point", "coordinates": [-79.878888888888895, 44.655277777777798, 0.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "Layer": "AEROPORT_EN_ONTARIO", "Id": "CPP6", "Station": "YORK" },
+      "geometry": { "type": "Point", "coordinates": [-79.8525, 43.0375, 0.0] }
+    }
+  ]
+}
+

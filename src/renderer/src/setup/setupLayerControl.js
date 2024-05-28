@@ -12,6 +12,8 @@ export function setupLayerControl(map) {
   map.on("remove:layer", () => {
     updateList(map);
   });
+
+  updateList(map);
 }
 
 /**
@@ -27,7 +29,7 @@ export function updateList(map) {
   map
     .getLayers()
     .getArray()
-    .filter((layer) => layer.dataType === "lines")
+    .filter((layer) => layer.dataType === "lines" || layer.dataType === "airports")
     .forEach((layer) => {
       const div = createListElem(layer);
       layersElem.appendChild(div);
@@ -56,7 +58,7 @@ export function updateList(map) {
       map
         .getLayers()
         .getArray()
-        .filter((layer) => layer.dataType === "lines")
+        .filter((layer) => layer.dataType === "lines" || layer.dataType === "airports")
         .forEach((layer) => {
           if (layer.name === layerName) {
             layer.setVisible(visible);
