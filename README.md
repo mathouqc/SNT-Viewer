@@ -1,6 +1,6 @@
 # SNT Viewer App
 
-Application pour visualiser facilement les planifications en format SNT
+Application pour visualiser facilement les planifications en format SNT (voir [DEMO.SNT](DEMO.SNT))
 
 Site web: https://snt-view.web.app
 
