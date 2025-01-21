@@ -49,6 +49,7 @@ export function setupSettings(map) {
 export function updateSettings(map) {
   // Update opacity
   map.baseLayer.setOpacity(map.mySettings.baseLayerOpacity);
+  map.airportLayer.setOpacity(map.mySettings.baseLayerOpacity);
   // Update lineSize and showFlown
   const linesLayers = map
     .getLayers()

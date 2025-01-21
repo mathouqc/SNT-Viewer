@@ -5,10 +5,13 @@ import { Style } from "ol/style";
 import { Text } from "ol/style";
 import { Icon } from "ol/style";
 
+import airportsURL from "../../assets/geojson/airports.geojson?url";
+import planeIcon from "../../assets/plane.png?url";
+
 export function buildAirportLayer() {
   const vectorLayer = new VectorLayer({
     source: new VectorSource({
-      url: "../assets/geojson/airports.geojson",
+      url: airportsURL,
       format: new GeoJSON(),
     }),
     style: (feature) => {
@@ -19,7 +22,7 @@ export function buildAirportLayer() {
           offsetY: -12,
         }),
         image: new Icon({
-          src: "../../assets/plane.png",
+          src: planeIcon,
           scale: 0.17,
         }),
       });

@@ -13,6 +13,8 @@ import { setupControls } from "./setup/setupControls";
 import { setupSettings } from "./setup/setupSettings";
 import { setupLayerControl } from "./setup/setupLayerControl";
 
+import { version } from "../../../package.json";
+
 export class App {
   constructor() {
     useGeographic();
@@ -34,7 +36,7 @@ export class App {
       }),
     });
 
-    this.map.appVersion = "v1.1.1";
+    this.map.appVersion = "v" + version;
     this.map.baseLayer = baseLayer;
     this.map.airportLayer = airportLayer;
 

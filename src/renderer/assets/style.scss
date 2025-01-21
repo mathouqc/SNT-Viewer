@@ -1,7 +1,8 @@
+@use "settings" as *;
+@use "layers" as *;
+
 @import "ol/ol.css";
 @import "ol-ext/dist/ol-ext.css";
-@import "settings";
-@import "layers";
 
 html,
 body {
