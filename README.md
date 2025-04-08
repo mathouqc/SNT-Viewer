@@ -4,6 +4,8 @@ Application pour visualiser facilement les planifications en format SNT (voir [D
 
 Site web: https://snt-view.web.app
 
+Application bureau: https://github.com/mathouqc/SNT-Viewer/releases/latest
+
 ![App Screenshot](doc/screenshot.png)
 
 ## Frameworks
